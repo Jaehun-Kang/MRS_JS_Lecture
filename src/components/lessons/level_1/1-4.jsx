@@ -23,7 +23,7 @@ const Lesson4 = {
   </div>
   <button type="submit" class="btn btn-primary">전송</button>
   <button type="button" class="btn btn-danger" id="close">닫기</button>
-</form> 
+</form>
 `}
           />
           <p>전송 버튼을 누르면 폼 전송이 되며 success.html로 이동한다.</p>
@@ -40,7 +40,8 @@ if (조건) {
   // 조건이 참일 때 실행할 코드
 } else {
   // 조건이 거짓일 때 실행할 코드
-}`}
+}
+`}
         />
         <h3>비교 연산자</h3>
         <CodeBlock
@@ -48,7 +49,8 @@ if (조건) {
           language="javascript"
           code={`==, === // 값이 같음, 타입도 같음
 !=, !== // 같지 않음, 타입도 다름
->, <, >=, <= // 크기 비교`}
+>, <, >=, <= // 크기 비교
+`}
         />
         <h3>폼 검증 함수 만들기</h3>
         <CodeBlock
@@ -56,14 +58,16 @@ if (조건) {
           language="javascript"
           code={`$('form').on('submit', function(){
   // 폼 검증 코드 작성
-});`}
+});
+`}
         />
         <p>submit 이벤트에 대해 코드를 작성하면 된다.</p>
         <CodeBlock
           filename="JavaScript"
           language="javascript"
           code={`document.getElementById('id').value
-$('#id').val() // 요소의 값`}
+$('#id').val() // 요소의 값
+`}
         />
         <p>이렇게 하면 해당 요소의 값을 가져올 수 있다.</p>
         <CodeBlock
@@ -71,7 +75,8 @@ $('#id').val() // 요소의 값`}
           language="javascript"
           code={`$('element').on('event', function(e){
   e.preventDefault() // 이벤트 동작 방지
-}`}
+}
+`}
         />
         <p>
           이건 이벤트의 기본 동작을 막는 역할을 하는데, 이벤트 리스너에 사용하면
@@ -88,7 +93,8 @@ $('#id').val() // 요소의 값`}
   // 조건이 참일 때 실행할 코드
 } else if (조건2) {
   // 조건2가 참일 때 실행할 코드
-}`}
+}
+`}
         />
         <p>if 조건문 뒤에 원하는 만큼 추가할 수 있다.</p>
         <h3>input, change 이벤트</h3>
@@ -102,8 +108,9 @@ $('#id').val() // 요소의 값`}
 
 if (input) {
   // input이 truthy면 실행
-}`}
-        />{" "}
+}
+`}
+        />
       </div>
     </div>
   ),
