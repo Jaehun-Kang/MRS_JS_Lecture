@@ -2,9 +2,9 @@ import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 
-const Lesson0 = {
+const Lesson23 = {
   name: "3-8 Array 관련 함수",
-  idx: 24,
+  idx: 23,
   content: (
     <div className="lesson-content">
       <h2>Array 관련 함수</h2>
@@ -18,4 +18,4 @@ const Lesson0 = {
   ),
 };
 
-export default Lesson0;
+export default Lesson23;

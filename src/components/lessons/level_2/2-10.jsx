@@ -3,11 +3,11 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 
 const Lesson15 = {
-  name: "2-10 탭메뉴 응용",
+  name: "2-10 라이브러리",
   idx: 15,
   content: (
     <div className="lesson-content">
-      <h2>탭메뉴 응용</h2>
+      <h2>라이브러리</h2>
       <p>내용</p>
       <CodeBlock filename="MyComponent.jsx" language="jsx" code={`code`} />
       <Foldable title="폴더제목">

@@ -14,21 +14,20 @@ import Lesson12 from "./level_2/2-7";
 import Lesson13 from "./level_2/2-8";
 import Lesson14 from "./level_2/2-9";
 import Lesson15 from "./level_2/2-10";
-import Lesson16 from "./level_2/2-11";
-import Lesson17 from "./level_3/3-1";
-import Lesson18 from "./level_3/3-2";
-import Lesson19 from "./level_3/3-3";
-import Lesson20 from "./level_3/3-4";
-import Lesson21 from "./level_3/3-5";
-import Lesson22 from "./level_3/3-6";
-import Lesson23 from "./level_3/3-7";
-import Lesson24 from "./level_3/3-8";
-import Lesson25 from "./level_3/3-9";
-import Lesson26 from "./level_3/3-10";
-import Lesson27 from "./level_3/3-11";
-import Lesson28 from "./level_3/3-12";
-import Lesson29 from "./level_3/3-13";
-import Lesson30 from "./level_3/3-14";
+import Lesson16 from "./level_3/3-1";
+import Lesson17 from "./level_3/3-2";
+import Lesson18 from "./level_3/3-3";
+import Lesson19 from "./level_3/3-4";
+import Lesson20 from "./level_3/3-5";
+import Lesson21 from "./level_3/3-6";
+import Lesson22 from "./level_3/3-7";
+import Lesson23 from "./level_3/3-8";
+import Lesson24 from "./level_3/3-9";
+import Lesson25 from "./level_3/3-10";
+import Lesson26 from "./level_3/3-11";
+import Lesson27 from "./level_3/3-12";
+import Lesson28 from "./level_3/3-13";
+import Lesson29 from "./level_3/3-14";
 
 const lessons = [
   Lesson1,
@@ -60,7 +59,6 @@ const lessons = [
   Lesson27,
   Lesson28,
   Lesson29,
-  Lesson30,
 ];
 
 export default lessons;
