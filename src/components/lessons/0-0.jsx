@@ -14,6 +14,12 @@ const Lesson0 = {
         <p>내용</p>
         <CodeBlock filename="MyComponent.jsx" language="jsx" code={`code`} />
       </Foldable>
+      <Attachment
+          title="첨부파일 (assets 폴더에 넣기)"
+          items={[
+            { alt: "버스", src: car1 },
+          ]}
+        />
     </div>
   ),
 };

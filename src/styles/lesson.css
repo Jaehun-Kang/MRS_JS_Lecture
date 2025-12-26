@@ -211,17 +211,17 @@ code #text {
   padding-left: 1rem;
   margin-left: 0.25rem;
   margin-bottom: 1rem;
-  max-height: 1000px;
+  max-height: 9999px;
   opacity: 1;
   overflow: hidden;
-  transition: max-height 0.5s, opacity 0.5s, margin 0.5s;
+  transition: max-height 0.8s, opacity 0.5s, margin 0.2s;
 }
 
 .foldable-content.closed {
   max-height: 0;
   opacity: 0;
   margin-block: 0;
-  transition: max-height 0.2s, opacity 0.2s, margin 0.2s;
+  transition: max-height 0.2s, opacity 0.4s, margin 0.4s;
 }
 
 .var-table {

@@ -3,10 +3,10 @@ import FoldableSection from "./Foldable";
 const LessonList = ({ lessons, onSelect, selectedIdx }) => {
   const level1 = lessons.filter((lesson) => lesson.idx >= 1 && lesson.idx <= 5);
   const level2 = lessons.filter(
-    (lesson) => lesson.idx >= 6 && lesson.idx <= 16
+    (lesson) => lesson.idx >= 6 && lesson.idx <= 15
   );
   const level3 = lessons.filter(
-    (lesson) => lesson.idx >= 17 && lesson.idx <= 30
+    (lesson) => lesson.idx >= 16 && lesson.idx <= 30
   );
 
   return (

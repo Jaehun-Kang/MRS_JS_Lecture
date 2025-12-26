@@ -1,39 +1,10 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 import car1 from "../../../assets/car1.png";
 import car2 from "../../../assets/car2.png";
 import car3 from "../../../assets/car3.png";
-
-const downloadAllImages = async () => {
-  const images = [
-    { name: "car1.png", url: car1 },
-    { name: "car2.png", url: car2 },
-    { name: "car3.png", url: car3 },
-  ];
-
-  for (let i = 0; i < images.length; i++) {
-    const image = images[i];
-    try {
-      const response = await fetch(image.url);
-      const blob = await response.blob();
-      const blobUrl = URL.createObjectURL(blob);
-
-      const link = document.createElement("a");
-      link.href = blobUrl;
-      link.download = image.name;
-      link.click();
-
-      URL.revokeObjectURL(blobUrl);
-    } catch (error) {
-      console.error(`Failed to download ${image.name}:`, error);
-    }
-
-    if (i < images.length - 1) {
-      await new Promise((resolve) => setTimeout(resolve, 400));
-    }
-  }
-};
 
 const Lesson9 = {
   name: "2-4 캐러셀",
@@ -86,87 +57,14 @@ const Lesson9 = {
           왼쪽, 1, 2, 3, 오른쪽 버튼을 누르면 애니메이션 효과와 함께 슬라이드가
           이동한다.
         </p>
-        <div style={{ marginTop: "2rem" }}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginBottom: "1rem",
-            }}
-          >
-            <h4 style={{ margin: 0 }}>첨부파일 (assets 폴더에 넣기)</h4>
-            <button
-              onClick={downloadAllImages}
-              style={{
-                padding: "0.5rem 1rem",
-                backgroundColor: "#4675c0",
-                color: "white",
-                border: "none",
-                borderRadius: "0.25rem",
-                cursor: "pointer",
-              }}
-            >
-              모두 다운로드
-            </button>
-          </div>
-          <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
-            <div style={{ textAlign: "center" }}>
-              <img
-                src={car1}
-                alt="버스"
-                style={{ width: "150px", marginBottom: "0.5rem" }}
-              />
-              <a
-                href={car1}
-                download="car1.png"
-                style={{
-                  display: "block",
-                  marginTop: "0.5rem",
-                  color: "#4675c0",
-                }}
-              >
-                car1.png 다운로드
-              </a>
-            </div>
-            <div style={{ textAlign: "center" }}>
-              <img
-                src={car2}
-                alt="오토바이"
-                style={{ width: "150px", marginBottom: "0.5rem" }}
-              />
-              <a
-                href={car2}
-                download="car2.png"
-                style={{
-                  display: "block",
-                  marginTop: "0.5rem",
-                  color: "#4675c0",
-                }}
-              >
-                car2.png 다운로드
-              </a>
-            </div>
-            <div style={{ textAlign: "center" }}>
-              <img
-                src={car3}
-                alt="자동차"
-                style={{ width: "150px", marginBottom: "0.5rem" }}
-              />
-              <a
-                href={car3}
-                download="car3.png"
-                style={{
-                  display: "block",
-                  marginTop: "0.5rem",
-                  color: "#4675c0",
-                }}
-              >
-                car3.png 다운로드
-              </a>
-            </div>
-          </div>
-        </div>
+        <Attachment
+          title="첨부파일 (assets 폴더에 넣기)"
+          items={[
+            { alt: "car1.png", src: car1 },
+            { alt: "car2.png", src: car2 },
+            { alt: "car3.png", src: car3 },
+          ]}
+        />
       </Foldable>
       <h3>애니메이션 UI 만들기 순서</h3>
       <p>
