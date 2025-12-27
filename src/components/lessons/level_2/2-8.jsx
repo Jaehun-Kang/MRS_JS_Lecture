@@ -90,9 +90,9 @@ $("element") == document.querySelector("element"); // 항상 false
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`element.addEventListener("event", function (e) {
-  $(e.target) == $("element2"); // 비교 불가능
-  $(e.target).is($("element2")); // 비교 가능
+        code={`$("element").addEventListener("event", function (e) {
+  $(e.target) == $("element"); // 비교 불가능
+  $(e.target).is($("element")); // 비교 가능
 });
 `}
       />
