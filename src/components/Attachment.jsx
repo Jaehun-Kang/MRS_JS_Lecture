@@ -30,60 +30,69 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
     }
   };
 
+  const attachmentStyles = {
+    container: { marginTop: "2rem" },
+    headerContainer: {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      marginBottom: "1rem",
+    },
+    title: { margin: 0 },
+    downloadAllButton: {
+      padding: "0.5rem 1rem",
+      backgroundColor: "var(--accent-primary)",
+      color: "white",
+      border: "none",
+      borderRadius: "0.25rem",
+      cursor: "pointer",
+    },
+    itemsContainer: { display: "flex", gap: "2rem", flexWrap: "wrap" },
+    itemWrapper: { textAlign: "center" },
+    checkboardBg: {
+      width: "150px",
+      marginBottom: "0.5rem",
+      backgroundImage:
+        "linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc)",
+      backgroundPosition: "0 0, 10px 10px",
+      backgroundSize: "20px 20px",
+      backgroundColor: "#fff",
+      display: "inline-block",
+    },
+    image: { width: "100%", display: "block" },
+    downloadLink: {
+      display: "block",
+      marginTop: "0.5rem",
+      color: "var(--accent-primary)",
+      textDecoration: "none",
+    },
+  };
+
   return (
-    <div style={{ marginTop: "2rem" }}>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginBottom: "1rem",
-        }}
-      >
-        <h4 style={{ margin: 0 }}>{title}</h4>
+    <div style={attachmentStyles.container}>
+      <div style={attachmentStyles.headerContainer}>
+        <h4 style={attachmentStyles.title}>{title}</h4>
         <button
           onClick={downloadAllItems}
-          style={{
-            padding: "0.5rem 1rem",
-            backgroundColor: "#4675c0",
-            color: "white",
-            border: "none",
-            borderRadius: "0.25rem",
-            cursor: "pointer",
-          }}
+          style={attachmentStyles.downloadAllButton}
         >
           모두 다운로드
         </button>
       </div>
-      <div style={{ display: "flex", gap: "2rem", flexWrap: "wrap" }}>
+      <div style={attachmentStyles.itemsContainer}>
         {items.map((item) => (
-          <div key={item.src} style={{ textAlign: "center" }}>
-            <div
-              style={{
-                width: "150px",
-                marginBottom: "0.5rem",
-                backgroundImage:
-                  "linear-gradient(45deg, #666 25%, transparent 25%, transparent 75%, #666 75%, #666), linear-gradient(45deg, #666 25%, transparent 25%, transparent 75%, #666 75%, #666)",
-                backgroundPosition: "0 0, 10px 10px",
-                backgroundSize: "20px 20px",
-                backgroundColor: "#888",
-                display: "inline-block",
-              }}
-            >
+          <div key={item.src} style={attachmentStyles.itemWrapper}>
+            <div style={attachmentStyles.checkboardBg}>
               <img
                 src={item.src}
                 alt={item.alt}
-                style={{ width: "100%", display: "block" }}
+                style={attachmentStyles.image}
               />
             </div>
             <a
               href={item.src}
               download={getFileName(item.src)}
-              style={{
-                display: "block",
-                marginTop: "0.5rem",
-                color: "#4675c0",
-              }}
+              style={attachmentStyles.downloadLink}
             >
               {item.alt} 다운로드
             </a>

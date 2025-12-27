@@ -39,11 +39,13 @@ const Lesson12 = {
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
+
 ul.list::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
+
 .tab-button {
   display: block;
   padding: 10px 20px 10px 20px;
@@ -54,6 +56,7 @@ ul.list::after {
   text-decoration: none;
   cursor: pointer;
 }
+
 .orange {
   border-top: 2px solid orange;
   border-right: 1px solid #ccc;
@@ -62,10 +65,12 @@ ul.list::after {
   color: black;
   margin-top: -2px;
 }
+
 .tab-content {
   display: none;
   padding: 10px;
 }
+
 .show {
   display: block;
 }
@@ -89,7 +94,45 @@ ul.list::after {
         defer는 HTML 문서를 모두 불러온 후 스크립트를 실행하도록 한다.
       </p>
       <h3>셀렉터</h3>
-      
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`document.querySelectorAll(".class")[num]
+$(".class").eq(num) // .class 중 num번째 선택
+`}
+      />
+      <p>이걸 사용하면 같은 클래스 중 원하는 요소를 선택할 수 있다.</p>
+      <p>
+        하지만 셀렉터 문법을 사용하면 HTML 파일을 읽고 찾아야 하기 때문에 HTML
+        파일이 길고 복잡할 수록 오래 걸린다.
+        <br />
+        그렇기 때문에 셀렉터 문법을 많이 사용할 경우에는 요소를 변수에 저장하여
+        사용하는 것이 좋다.
+      </p>
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`var element = $(".class");
+element.eq(num) // .class 중 num번째 선택
+`}
+      />
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`$(".class").length; // .class 개수
+`}
+      />
+      <p>이것도 유용하니 알아두자.</p>
+      <h3>For 반복문</h3>
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`for (let i = 0; i < num; i++) {
+  // num번 반복 실행할 코드
+}
+`}
+      />
+      <p>var 대신 let을 사용하는 이유는 변수의 유효 범위에 있다.</p>
     </div>
   ),
 };

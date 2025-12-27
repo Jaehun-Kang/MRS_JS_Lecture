@@ -36,7 +36,7 @@ const Lesson11 = {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`window.addEventListener('scroll', function () {
+        code={`window.addEventListener("scroll", function () {
   // 스크롤 시 실행할 코드
 });
 `}
@@ -80,9 +80,9 @@ $(window).scrollTop(y); // y 위치로 수직 스크롤 이동
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`document.querySelector('.class').scrollTop; // 요소의 실제 스크롤 위치
-document.querySelector('.class').scrollHeight; // 요소의 실제 높이
-document.querySelector('.class').clientHeight; // 요소의 화면에 보이는 높이
+        code={`document.querySelector(".class").scrollTop; // 요소의 실제 스크롤 위치
+document.querySelector(".class").scrollHeight; // 요소의 실제 높이
+document.querySelector(".class").clientHeight; // 요소의 화면에 보이는 높이
 `}
       />
       <h3>스크롤 이벤트 주의할 점</h3>

@@ -13,7 +13,7 @@ const Lesson8 = {
       <CodeBlock
         filename="Javascript"
         language="javascript"
-        code={`'text'.includes('text to find')`}
+        code={`"text".includes("text to find")`}
       />
       <p>
         찾을 텍스트가 앞의 문자열에 포함되어 있는지 확인하고 true/false를
@@ -38,7 +38,7 @@ const Lesson8 = {
       <CodeBlock
         filename="Javascript"
         language="javascript"
-        code={`/regex/.test('text')`}
+        code={`/regex/.test("text")`}
       />
       <p>
         문자열에 정규 표현식 조건에 맞는 패턴이 포함되어 있는지 확인하고

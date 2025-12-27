@@ -17,11 +17,11 @@ const Lesson2 = {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`요소.addEventListener("event", function () {
+        code={`element.addEventListener("event", function () {
   // 이벤트 발생 시 실행할 코드
 })`}
       />
-      <p>특정 요소에 이벤트 리스너 등록</p>
+      <p>특정 element에 이벤트 리스너 등록</p>
       <h3>콜백함수</h3>
       <CodeBlock
         filename="JavaScript"
@@ -47,9 +47,9 @@ const Lesson2 = {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`document.querySelector('#id') // 아이디 요소 선택
-document.querySelector('.class') // 클래스 중 첫번째 요소 선택
-document.querySelectorAll('.class') // 클래스 모든 요소 선택`}
+        code={`document.querySelector("#id") // 아이디 요소 선택
+document.querySelector(".class") // 클래스 중 첫번째 요소 선택
+document.querySelectorAll(".class") // 클래스 모든 요소 선택`}
       />
       <p>
         getElementById() 나 getElementsByClassName() 대신 사용할 수 있는

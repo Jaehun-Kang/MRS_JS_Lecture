@@ -15,10 +15,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: #e0e0e0;
+  color: var(--button-color);
   font-weight: 600;
   font-size: 0.9rem;
-  background-color: #2a2a2a;
+  background-color: var(--button-bg);
   padding: 0.75rem 1rem;
   border-radius: 0.5rem 0.5rem 0 0;
   box-sizing: border-box;
@@ -31,9 +31,9 @@
 }
 
 .copy-button {
-  background-color: #3a3a3a;
-  color: #e0e0e0;
-  border: 1px solid #555;
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border: 1px solid var(--button-border);
   padding: 0.4rem 0.8rem;
   border-radius: 0.3rem;
   cursor: pointer;
@@ -45,12 +45,12 @@
 }
 
 .copy-button:hover {
-  background-color: #4a4a4a;
-  border-color: #888;
-  color: #fff;
+  background-color: var(--button-hover-bg);
+  border-color: var(--button-hover-border);
+  color: var(--button-hover-color);
 }
 
 .copy-button:active {
-  background-color: #2a2a2a;
-  border-color: #666;
+  background-color: var(--button-active-bg);
+  border-color: var(--button-active-border);
 }

@@ -80,6 +80,7 @@ $("#id").on("click", function () {
   z-index : 5;
   padding: 30px;
 }
+
 .white-bg {
   background: white;
   border-radius: 5px;

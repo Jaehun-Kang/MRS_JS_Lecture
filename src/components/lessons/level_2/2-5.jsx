@@ -51,7 +51,7 @@ console.log(fName()); // value 출력
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`(0.1 + 0.2).toFixed(1) // 소수점 1자리 반올림 '0.3'
+        code={`(0.1 + 0.2).toFixed(1) // 소수점 1자리 반올림 "0.3"
 `}
       />
       <p>toFixed()는 문자열을 반환하기 때문에 숫자 타입으로 변환이 필요하다.</p>
