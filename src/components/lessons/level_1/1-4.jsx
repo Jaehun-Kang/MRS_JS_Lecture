@@ -175,7 +175,55 @@ if (boolean1 || boolean2){ // or 연산자
           <br />
           괄호 → && → || 순으로 계산되니 유의하고 사용하자.
         </p>
-        <p></p>
+        <Foldable title="퀴즈">
+          <CodeBlock
+            filename="1. 구구단 3단 게임"
+            language="javascript"
+            code={`function gameTimes3(num) {
+  // num이 3의 배수면 "짝"을 반환
+  // 포함하지 않으면 "패스"를 반환
+}
+`}
+          />
+          <CodeBlock
+            filename="2. 변형 구구단 3단 게임"
+            language="javascript"
+            code={`function gameTimes3v2(num) {
+  // num이 3의 배수면 "짝"을 반환
+  // num이 9의 배수면 "짝짝"을 반환
+  // 포함하지 않으면 "패스"를 반환
+}
+`}
+          />
+          <CodeBlock
+            filename="3. 일의 자리 369 게임"
+            language="javascript"
+            code={`function game369(num) {
+  // num의 일의 자리가 3, 6, 9 중 하나에 포함되면 "짝"을 반환
+  // 포함하지 않으면 "패스"를 반환
+}
+`}
+          />
+          <CodeBlock
+            filename="4. 패논패 여부"
+            language="javascript"
+            code={`function pNp(mid, final){
+  // 두 시험 점수의 합이 120점 이상이면 "합격" 반환
+  // 하지만 한 과목이라도 40점 미만이면 "불합격" 반환
+}
+`}
+          />
+          <CodeBlock
+            filename="5. 패논패 여부(100점 만점)"
+            language="javascript"
+            code={`function pNp(mid, final){
+  // 두 시험 점수의 합이 120점 이상이면 "합격" 반환
+  // 하지만 한 과목이라도 40점 미만이면 "불합격" 반환
+  // 중간 기말 점수는 각각 100점 만점
+}
+`}
+          />
+        </Foldable>
       </div>
     </div>
   ),

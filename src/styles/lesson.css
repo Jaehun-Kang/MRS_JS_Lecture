@@ -72,8 +72,12 @@ p {
   color: var(--text-secondary);
 }
 
+.lesson-list > li {
+  cursor: default;
+}
+
 .lesson-list li:first-child {
-  margin-top: 0;
+  margin-top: 2px;
 }
 
 .lesson-list li:hover {
@@ -212,7 +216,7 @@ code #text {
   cursor: pointer;
   width: 100%;
   padding-block: 1rem;
-  margin-left: 0.25rem;
+  padding-left: 0.25rem;
   border-radius: 0.25rem;
   transition: background-color 0.2s;
   border: none;
@@ -223,21 +227,21 @@ code #text {
 }
 
 .foldable-content {
+  cursor: default;
   border-left: 0.125rem solid var(--border-light);
-  padding-left: 1rem;
-  margin-left: 0.25rem;
+  padding-left: 20px;
   margin-bottom: 1rem;
   max-height: 9999px;
   opacity: 1;
   overflow: hidden;
-  transition: max-height 0.8s, opacity 0.5s, margin 0.2s;
+  transition: max-height 1200ms, opacity 500ms, margin 500ms;
 }
 
 .foldable-content.closed {
   max-height: 0;
   opacity: 0;
   margin-block: 0;
-  transition: max-height 0.1s, opacity 0.2s, margin 0.4s;
+  transition: max-height 150ms, opacity 250ms, margin 250ms;
 }
 
 .var-table,

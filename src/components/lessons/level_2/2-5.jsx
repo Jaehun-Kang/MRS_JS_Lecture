@@ -63,6 +63,33 @@ parseInt((0.1 + 0.2).toFixed(1)) // 0
 Number((0.1 + 0.2).toFixed(1)) // 0.3
 `}
       />
+      <Foldable title="퀴즈">
+        <CodeBlock
+          filename="1. 밀리초 변환기"
+          language="javascript"
+          code={`function toMs(min, sec) {
+  // min과 sec를 밀리초 단위로 변환하여 반환
+}
+
+console.log(toMs(1, 30)); // 90000
+console.log(toMs(2, 10)); // 130000
+`}
+        />
+        <CodeBlock
+          filename="2. 할인 가격 계산기"
+          language="javascript"
+          code={`function salePrice(price, isFirstBuy) {
+  // 가격에서 10% 세일한 가격을 반환
+  // 단, 첫 구매자라면 1.5달러 추가 할인
+  // 소수점 둘째 자리에서 반올림
+}
+
+console.log(salePrice(70, false)); // 63
+console.log(salePrice(10, true)); // 8.5
+console.log(salePrice(10.3, true)); // 8.8
+`}
+        />
+      </Foldable>
     </div>
   ),
 };
