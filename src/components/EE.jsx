@@ -6,28 +6,47 @@ export default function EasterEgg() {
   const [isShaking, setIsShaking] = useState(false);
   const [isBurning, setIsBurning] = useState(false);
   const [isDeactivated, setIsDeactivated] = useState(false);
+  const [messages, setMessages] = useState([]);
   const [particles, setParticles] = useState([]);
 
+  const messageTexts = [
+    "어렵겠지만 다들 화이팅!!",
+    "모르는거 많이 질문해주세요~",
+    "잘 들어줘서 감사합니다...",
+    "가즈아ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ",
+  ];
+
+  const getRandomMessage = () =>
+    messageTexts[Math.floor(Math.random() * messageTexts.length)];
+
   const handleLogoClick = () => {
-    if (isDeactivated) return;
-
-    const newClicks = logoClicks + 1;
-    // console.log(`클릭: ${newClicks}`);
-    setLogoClicks(newClicks);
-
-    // 100번 클릭하면 회색빛으로 변경
-    if (newClicks >= 60) {
-      setIsDeactivated(true);
-      setIsGlowing(false);
-      setIsBurning(false);
+    if (isDeactivated) {
+      const msgId = Date.now();
+      const msgText = getRandomMessage();
+      setMessages((prev) => [...prev, { id: msgId, text: msgText }]);
+      setTimeout(() => {
+        setMessages((prev) => prev.filter((msg) => msg.id !== msgId));
+      }, 2000);
       return;
     }
 
-    // 흔들기 효과
+    const newClicks = logoClicks + 1;
+    setLogoClicks(newClicks);
+
+    if (newClicks >= 50) {
+      setIsDeactivated(true);
+      const msgId = Date.now();
+      const msgText = getRandomMessage();
+      setMessages((prev) => [...prev, { id: msgId, text: msgText }]);
+      setTimeout(() => {
+        setMessages((prev) => prev.filter((msg) => msg.id !== msgId));
+      }, 2000);
+      return;
+    }
+
     setIsShaking(true);
     setTimeout(() => setIsShaking(false), 100);
 
-    // 클릭 시 많은 파티클 생성
     if (isBurning) {
       const now = Date.now();
       const burstParticles = Array.from({ length: 5 }).map((_, i) => ({
@@ -41,21 +60,18 @@ export default function EasterEgg() {
       setParticles((prev) => [...prev, ...burstParticles]);
     }
 
-    // 불 붙은 상태로
     if (isGlowing && newClicks >= 25) {
       setIsBurning(true);
       return;
     }
 
-    // 무지개 발광 효과 시작
     if (newClicks >= 15) {
       setIsGlowing(true);
     }
   };
 
-  // 파티클 생성 (onAnimationEnd 이벤트로 정리됨)
   const createParticles = () => {
-    if (!isBurning) return;
+    if (!isBurning || isDeactivated) return;
 
     const now = Date.now();
     const newParticles = Array.from({ length: 2 }).map((_, i) => ({
@@ -69,16 +85,14 @@ export default function EasterEgg() {
     setParticles((prev) => [...prev, ...newParticles]);
   };
 
-  // isBurning 상태일 때 계속 파티클 생성
   useEffect(() => {
-    if (!isBurning) {
-      setParticles([]);
+    if (!isBurning || isDeactivated) {
       return;
     }
 
     const interval = setInterval(createParticles, 800);
     return () => clearInterval(interval);
-  }, [isBurning]);
+  }, [isBurning, isDeactivated]);
 
   return (
     <div
@@ -109,7 +123,7 @@ export default function EasterEgg() {
             : "none",
           transformOrigin: "center",
           userSelect: "none",
-          filter: isDeactivated ? "grayscale(1)" : "none",
+          filter: isDeactivated ? "grayscale(1) brightness(0.58)" : "none",
         }}
       />
       {isBurning && (
@@ -146,6 +160,11 @@ export default function EasterEgg() {
           })}
         </div>
       )}
+      {messages.map((msg) => (
+        <div key={msg.id} className="message-tooltip">
+          {msg.text}
+        </div>
+      ))}
     </div>
   );
 }

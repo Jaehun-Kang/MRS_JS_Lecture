@@ -39,6 +39,18 @@
   --hover-overlay: light-dark(rgba(0, 0, 0, 0.08), rgba(255, 255, 255, 0.08));
   --list-hover-border: light-dark(#333, white);
 
+  /* Fire Particle Colors */
+  --fire-particle-primary: #ff6b1b;
+  --fire-particle-secondary: #ff4500;
+  --fire-particle-glow-1: rgba(255, 107, 27, 0.8);
+  --fire-particle-glow-2: rgba(255, 69, 0, 0.6);
+  --fire-particle-transparent: rgba(255, 69, 0, 0);
+
+  /* Other Colors */
+  --checkboard-light: #ccc;
+  --checkboard-bg: #fff;
+  --error-color: red;
+
   color: var(--text-primary);
   background-color: var(--bg-primary);
 
