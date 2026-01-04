@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson2 = {
   name: "1-2 동적 UI",

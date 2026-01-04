@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson10 = {
   name: "2-5 Return",

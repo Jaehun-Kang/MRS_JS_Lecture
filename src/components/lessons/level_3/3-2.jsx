@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson17 = {
   name: "3-2 Array/Object 응용",

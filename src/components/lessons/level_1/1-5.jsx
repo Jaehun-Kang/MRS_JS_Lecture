@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson5 = {
   name: "1-5 변수",
@@ -52,6 +53,7 @@ const Lesson5 = {
 
 function fName() {
   var name2 = value; // 지역 변수
+
   console.log(name1); //가능
   console.log(name2); //가능
 }

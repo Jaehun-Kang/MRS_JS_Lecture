@@ -280,3 +280,93 @@ code #text {
 .var-table tbody tr:nth-child(even) {
   background-color: var(--table-row-even-bg);
 }
+
+.attachment-container {
+  margin-top: 2rem;
+}
+
+.attachment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.attachment-title {
+  margin: 0;
+}
+
+.attachment-download-all {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-primary);
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.attachment-download-all:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.attachment-download-all:hover:not(:disabled) {
+  background-color: var(--accent-secondary);
+}
+
+.attachment-items {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.attachment-item {
+  text-align: center;
+}
+
+.attachment-checkboard {
+  width: 150px;
+  margin-bottom: 0.5rem;
+  background-image: linear-gradient(
+      45deg,
+      #ccc 25%,
+      transparent 25%,
+      transparent 75%,
+      #ccc 75%,
+      #ccc
+    ),
+    linear-gradient(
+      45deg,
+      #ccc 25%,
+      transparent 25%,
+      transparent 75%,
+      #ccc 75%,
+      #ccc
+    );
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.attachment-checkboard img {
+  width: 100%;
+  display: block;
+}
+
+.attachment-link {
+  display: block;
+  margin-top: 0.5rem;
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.attachment-link:hover {
+  opacity: 0.7;
+}
+
+.attachment-error {
+  color: red;
+}

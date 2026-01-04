@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson4 = {
   name: "1-4 if/else function 응용",
@@ -173,7 +174,7 @@ if (boolean1 || boolean2){ // or 연산자
           이런 식으로 and/or 연산자를 여러 개 사용한 경우 계산되는 순서를 잘
           이해해야 한다.
           <br />
-          괄호 → && → || 순으로 계산되니 유의하고 사용하자.
+          괄호 → AND 연산자 → OR 연산자 순으로 계산되니 유의하고 사용하자.
         </p>
         <Foldable title="퀴즈">
           <CodeBlock

@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import "../styles/lesson.css";
 
 const Attachment = ({ title = "첨부파일", items = [] }) => {
+  const [failedItems, setFailedItems] = useState(new Set());
+  const [isButtonHovered, setIsButtonHovered] = useState(false);
+
   const getFileName = (src) => {
+    if (!src || typeof src !== "string") return "파일";
     return src.split("/").pop();
   };
 
@@ -11,6 +16,7 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
       const fileName = getFileName(item.src);
       try {
         const response = await fetch(item.src);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const blob = await response.blob();
         const blobUrl = URL.createObjectURL(blob);
 
@@ -30,74 +36,54 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
     }
   };
 
-  const attachmentStyles = {
-    container: { marginTop: "2rem" },
-    headerContainer: {
-      display: "flex",
-      justifyContent: "space-between",
-      alignItems: "center",
-      marginBottom: "1rem",
-    },
-    title: { margin: 0 },
-    downloadAllButton: {
-      padding: "0.5rem 1rem",
-      backgroundColor: "var(--accent-primary)",
-      color: "white",
-      border: "none",
-      borderRadius: "0.25rem",
-      cursor: "pointer",
-    },
-    itemsContainer: { display: "flex", gap: "2rem", flexWrap: "wrap" },
-    itemWrapper: { textAlign: "center" },
-    checkboardBg: {
-      width: "150px",
-      marginBottom: "0.5rem",
-      backgroundImage:
-        "linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc), linear-gradient(45deg, #ccc 25%, transparent 25%, transparent 75%, #ccc 75%, #ccc)",
-      backgroundPosition: "0 0, 10px 10px",
-      backgroundSize: "20px 20px",
-      backgroundColor: "#fff",
-      display: "inline-block",
-    },
-    image: { width: "100%", display: "block" },
-    downloadLink: {
-      display: "block",
-      marginTop: "0.5rem",
-      color: "var(--accent-primary)",
-      textDecoration: "none",
-    },
+  const handleImageError = (src) => {
+    setFailedItems((prev) => new Set(prev).add(src));
   };
 
+  const validItems = items.filter(
+    (item) =>
+      item.src && typeof item.src === "string" && !failedItems.has(item.src)
+  );
+
+  const hasValidItems = validItems.length > 0;
+
   return (
-    <div style={attachmentStyles.container}>
-      <div style={attachmentStyles.headerContainer}>
-        <h4 style={attachmentStyles.title}>{title}</h4>
+    <div className="attachment-container">
+      <div className="attachment-header">
+        <h4 className="attachment-title">{title}</h4>
         <button
           onClick={downloadAllItems}
-          style={attachmentStyles.downloadAllButton}
+          disabled={!hasValidItems}
+          className="attachment-download-all"
+          onMouseEnter={() => setIsButtonHovered(true)}
+          onMouseLeave={() => setIsButtonHovered(false)}
         >
           모두 다운로드
         </button>
       </div>
-      <div style={attachmentStyles.itemsContainer}>
-        {items.map((item) => (
-          <div key={item.src} style={attachmentStyles.itemWrapper}>
-            <div style={attachmentStyles.checkboardBg}>
-              <img
-                src={item.src}
-                alt={item.alt}
-                style={attachmentStyles.image}
-              />
+      <div className="attachment-items">
+        {!hasValidItems ? (
+          <p className="attachment-error">파일을 찾을 수 없습니다</p>
+        ) : (
+          validItems.map((item) => (
+            <div key={item.src} className="attachment-item">
+              <div className="attachment-checkboard">
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  onError={() => handleImageError(item.src)}
+                />
+              </div>
+              <a
+                href={item.src}
+                download={getFileName(item.src)}
+                className="attachment-link"
+              >
+                {item.alt} 다운로드
+              </a>
             </div>
-            <a
-              href={item.src}
-              download={getFileName(item.src)}
-              style={attachmentStyles.downloadLink}
-            >
-              {item.alt} 다운로드
-            </a>
-          </div>
-        ))}
+          ))
+        )}
       </div>
     </div>
   );

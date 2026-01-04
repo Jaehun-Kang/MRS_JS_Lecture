@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson19 = {
   name: "3-4 Select 2",
@@ -40,7 +41,7 @@ $("parentElement").append(newElement); // jQuery를 사용하여 부모 요소 �
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`element.prop("propertyName", value) // element의 propertyName 속성을 value 값으로 변경
+        code={`$("element").prop("propertyName", value) // element의 propertyName 속성을 value 값으로 변경
 `}
       />
       <p>

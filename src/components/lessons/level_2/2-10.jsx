@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson15 = {
   name: "2-10 라이브러리",
@@ -40,7 +41,10 @@ const Lesson15 = {
           Lodash
         </a>
       </h3>
-      <p>유틸리티 라이브러리(array, object, 문자, 숫자 자료를 다루기 편해지는 기본함수들을 제공)</p>
+      <p>
+        유틸리티 라이브러리(array, object, 문자, 숫자 자료를 다루기 편해지는
+        기본함수들을 제공)
+      </p>
       <h3>
         <a target="_blank" href="https://react.dev/">
           React

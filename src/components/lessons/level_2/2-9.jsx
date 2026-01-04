@@ -1,6 +1,7 @@
 import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 
 const Lesson14 = {
   name: "2-9 탭메뉴 응용",
@@ -116,8 +117,8 @@ function fName(param1, param2) {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`$(element).data('dataName', 'value'); // 데이터 저장
-$(element).data('dataName') // 데이터 불러오기`}
+        code={`$("element").data('dataName', 'value'); // 데이터 저장
+$("element").data('dataName') // 데이터 불러오기`}
       />
       <p>
         dataset 문법은 IE 11 이상 버전에서 지원되는데, jQuery의 data() 메서드는
