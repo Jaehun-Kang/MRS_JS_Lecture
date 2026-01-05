@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson23 = {
+const Lesson24 = {
   name: "3-8 Array 관련 함수",
-  idx: 23,
+  idx: 24,
   content: (
     <div className="lesson-content">
       <h2>Array 관련 함수</h2>
@@ -70,4 +70,4 @@ var newArr = arr.map(function (a) {
   ),
 };
 
-export default Lesson23;
+export default Lesson24;

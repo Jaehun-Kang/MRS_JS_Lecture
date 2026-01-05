@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson20 = {
+const Lesson21 = {
   name: "3-5 Select 3",
-  idx: 20,
+  idx: 21,
   content: (
     <div className="lesson-content">
       <h2>Select 3</h2>
@@ -89,4 +89,4 @@ const fName = () => value // 함수 본문이 한 줄이고 return문만 있을 
   ),
 };
 
-export default Lesson20;
+export default Lesson21;

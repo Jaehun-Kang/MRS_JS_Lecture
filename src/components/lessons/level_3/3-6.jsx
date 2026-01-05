@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson21 = {
+const Lesson22 = {
   name: "3-6 Array / For 실습",
-  idx: 21,
+  idx: 22,
   content: (
     <div className="lesson-content">
       <h2>Array / For 실습</h2>
@@ -47,4 +47,4 @@ average([40, 40, 40], 40); // "평균 점수와 같습니다."
   ),
 };
 
-export default Lesson21;
+export default Lesson22;

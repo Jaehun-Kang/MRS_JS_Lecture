@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson19 = {
+const Lesson20 = {
   name: "3-4 Select 2",
-  idx: 19,
+  idx: 20,
   content: (
     <div className="lesson-content">
       <h2>Select 2</h2>
@@ -60,4 +60,4 @@ $("input").prop("value"); // input의 값
   ),
 };
 
-export default Lesson19;
+export default Lesson20;

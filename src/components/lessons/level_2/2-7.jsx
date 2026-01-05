@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson12 = {
+const Lesson13 = {
   name: "2-7 탭메뉴",
-  idx: 12,
+  idx: 13,
   content: (
     <div className="lesson-content">
       <h2>탭메뉴</h2>
@@ -138,4 +138,4 @@ element.eq(num) // .class 중 num번째 선택
   ),
 };
 
-export default Lesson12;
+export default Lesson13;

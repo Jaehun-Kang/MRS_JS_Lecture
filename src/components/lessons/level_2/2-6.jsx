@@ -4,9 +4,9 @@ import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 import logo from "../../../assets/logo.svg";
 
-const Lesson11 = {
+const Lesson12 = {
   name: "2-6 스크롤 이벤트",
-  idx: 11,
+  idx: 12,
   content: (
     <div className="lesson-content">
       <h2>스크롤 이벤트</h2>
@@ -97,4 +97,4 @@ document.querySelector(".class").clientHeight; // 요소의 화면에 보이는 
   ),
 };
 
-export default Lesson11;
+export default Lesson12;

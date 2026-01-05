@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson27 = {
+const Lesson28 = {
   name: "3-12 스크롤 애니메이션",
-  idx: 27,
+  idx: 28,
   content: (
     <div className="lesson-content">
       <h2>스크롤 애니메이션</h2>
@@ -88,4 +88,4 @@ value2 = a * scrollY2 + b; // 애니메이션 끝 위치값
   ),
 };
 
-export default Lesson27;
+export default Lesson28;

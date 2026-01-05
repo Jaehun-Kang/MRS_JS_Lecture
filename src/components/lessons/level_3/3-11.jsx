@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson26 = {
+const Lesson27 = {
   name: "3-11 LocalStorage 응용",
-  idx: 26,
+  idx: 27,
   content: (
     <div className="lesson-content">
       <h2>LocalStorage 응용</h2>
@@ -68,4 +68,4 @@ const Lesson26 = {
   ),
 };
 
-export default Lesson26;
+export default Lesson27;

@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson14 = {
+const Lesson15 = {
   name: "2-9 탭메뉴 응용",
-  idx: 14,
+  idx: 15,
   content: (
     <div className="lesson-content">
       <h2>탭메뉴 응용</h2>
@@ -128,4 +128,4 @@ $("element").data('dataName') // 데이터 불러오기`}
   ),
 };
 
-export default Lesson14;
+export default Lesson15;

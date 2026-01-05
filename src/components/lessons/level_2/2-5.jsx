@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson10 = {
+const Lesson11 = {
   name: "2-5 Return",
-  idx: 10,
+  idx: 11,
   content: (
     <div className="lesson-content">
       <h2>Return</h2>
@@ -86,8 +86,8 @@ console.log(toMs(2, 10)); // 130000
 }
 
 console.log(salePrice(70, false)); // 63
-console.log(salePrice(10, true)); // 8.5
-console.log(salePrice(10.3, true)); // 8.8
+console.log(salePrice(10, true)); // 7.5
+console.log(salePrice(10.3, true)); // 7.77
 `}
         />
       </Foldable>
@@ -95,4 +95,4 @@ console.log(salePrice(10.3, true)); // 8.8
   ),
 };
 
-export default Lesson10;
+export default Lesson11;

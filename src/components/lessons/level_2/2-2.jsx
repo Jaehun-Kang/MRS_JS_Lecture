@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson7 = {
+const Lesson8 = {
   name: "2-2 setTimeout/Interval",
-  idx: 7,
+  idx: 8,
   content: (
     <div className="lesson-content">
       <h2>setTimeout/Interval</h2>
@@ -115,4 +115,4 @@ function onTimeout() {
   ),
 };
 
-export default Lesson7;
+export default Lesson8;

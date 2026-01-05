@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson24 = {
+const Lesson25 = {
   name: "3-9 DOM 과 Load 이벤트",
-  idx: 24,
+  idx: 25,
   content: (
     <div className="lesson-content">
       <h2>DOM 과 Load 이벤트</h2>
@@ -154,4 +154,4 @@ window.addEventListener("load", function () {
   ),
 };
 
-export default Lesson24;
+export default Lesson25;

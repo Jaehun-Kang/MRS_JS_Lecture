@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson25 = {
+const Lesson26 = {
   name: "3-10 LocalStorage",
-  idx: 25,
+  idx: 26,
   content: (
     <div className="lesson-content">
       <h2>LocalStorage</h2>
@@ -195,4 +195,4 @@ $("element").siblings("#id"); // id에 해당하는 형제 요소 선택
   ),
 };
 
-export default Lesson25;
+export default Lesson26;

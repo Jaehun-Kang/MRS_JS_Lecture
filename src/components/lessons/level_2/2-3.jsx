@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson8 = {
+const Lesson9 = {
   name: "2-3 Regex",
-  idx: 8,
+  idx: 9,
   content: (
     <div className="lesson-content">
       <h2>Regex</h2>
@@ -130,4 +130,4 @@ const Lesson8 = {
   ),
 };
 
-export default Lesson8;
+export default Lesson9;

@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson22 = {
+const Lesson23 = {
   name: "3-7 Ajax",
-  idx: 22,
+  idx: 23,
   content: (
     <div className="lesson-content">
       <h2>Ajax</h2>
@@ -117,4 +117,4 @@ $.get("URL").catch(error => {}); // 요청 실패 시 처리
   ),
 };
 
-export default Lesson22;
+export default Lesson23;

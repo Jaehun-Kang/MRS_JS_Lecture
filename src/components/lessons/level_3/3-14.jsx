@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson29 = {
+const Lesson30 = {
   name: "3-14 Switch 문법",
-  idx: 29,
+  idx: 30,
   content: (
     <div className="lesson-content">
       <h2>Switch 문법</h2>
@@ -67,4 +67,4 @@ const Lesson29 = {
   ),
 };
 
-export default Lesson29;
+export default Lesson30;

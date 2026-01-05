@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson13 = {
+const Lesson14 = {
   name: "2-8 이벤트 버블링",
-  idx: 13,
+  idx: 14,
   content: (
     <div className="lesson-content">
       <h2>이벤트 버블링</h2>
@@ -105,4 +105,4 @@ $("element") == document.querySelector("element"); // 항상 false
   ),
 };
 
-export default Lesson13;
+export default Lesson14;

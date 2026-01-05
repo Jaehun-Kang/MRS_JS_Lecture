@@ -6,9 +6,9 @@ import car1 from "../../../assets/car1.png";
 import car2 from "../../../assets/car2.png";
 import car3 from "../../../assets/car3.png";
 
-const Lesson9 = {
+const Lesson10 = {
   name: "2-4 캐러셀",
-  idx: 9,
+  idx: 10,
   content: (
     <div className="lesson-content">
       <h2>캐러셀</h2>
@@ -66,18 +66,38 @@ const Lesson9 = {
           ]}
         />
       </Foldable>
-      <h3>애니메이션 UI 만들기 순서</h3>
+      <h3>UI 애니메이션 만들기 순서</h3>
       <p>
-        1. 애니메이션 시작 전 화면 HTML/CSS 구성
+        1. 시작 스타일 만들기 (CSS)
         <br />
-        2. 애니메이션 종료 후 화면 HTML/CSS 구성
+        2. 종료 스타일 만들기 (CSS)
         <br />
-        3. 애니메이션 시작 시점 JavaScript 구현
+        3. 애니메이션 시작 시점 구현 (JavaScript)
         <br />
-        4. transition CSS 추가
+        4. transition 속성 추가 (CSS)
       </p>
+      <h3>문자열 속 변수</h3>
+      <p>
+        문자열 속에 특정 변수를 넣고 싶을 때 사용할 수 있는 두 가지 방법이 있다.
+      </p>
+      <p>1. + 연산자 사용</p>
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`var name = value;
+console.log("값은 " + name + "입니다."); // 값은 value입니다.
+`}
+      />
+      <p>2. 백틱 사용</p>
+      <CodeBlock
+        filename="JavaScript"
+        language="javascript"
+        code={`var name = value;
+console.log(\`값은 \${name}입니다.\`); // 값은 value입니다.
+`}
+      />
     </div>
   ),
 };
 
-export default Lesson9;
+export default Lesson10;

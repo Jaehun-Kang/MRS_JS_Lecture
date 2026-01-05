@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson16 = {
+const Lesson17 = {
   name: "3-1 Array/Object",
-  idx: 16,
+  idx: 17,
   content: (
     <div className="lesson-content">
       <h2>Array/Object</h2>
@@ -79,4 +79,4 @@ obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}
   ),
 };
 
-export default Lesson16;
+export default Lesson17;

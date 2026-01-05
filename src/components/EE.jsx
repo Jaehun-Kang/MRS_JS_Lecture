@@ -18,7 +18,7 @@ export default function EasterEgg() {
     "어렵겠지만 다들 화이팅!!",
     "모르는거 많이 질문해주세요~",
     "잘 들어줘서 감사합니다...",
-    "가즈아ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ",
+    "가즈아ㅏㅏㅏㅏㅏㅏㅏ!!!!!!!",
   ];
 
   const getRandomMessage = () => {

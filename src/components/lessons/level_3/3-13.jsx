@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson28 = {
+const Lesson29 = {
   name: "3-13 마우스 이벤트",
-  idx: 28,
+  idx: 29,
   content: (
     <div className="lesson-content">
       <h2>마우스 이벤트</h2>
@@ -102,4 +102,4 @@ $("element").on("pointerup", function () {
   ),
 };
 
-export default Lesson28;
+export default Lesson29;

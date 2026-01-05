@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson17 = {
+const Lesson18 = {
   name: "3-2 Array/Object 응용",
-  idx: 17,
+  idx: 18,
   content: (
     <div className="lesson-content">
       <h2>Array/Object 응용</h2>
@@ -76,29 +76,9 @@ arr[idx].key; // idx번째 객체의 key에 해당하는 값
 obj.key[idx]; // key에 해당하는 배열의 idx번째 값
 `}
       />
-      <h3>문자열 속 변수</h3>
-      <p>
-        문자열 속에 특정 변수를 넣어 출력하고 싶을 때가 있는데, 크게 두 가지
-        방법이 있다.
-      </p>
-      <p>1. + 연산자 사용</p>
-      <CodeBlock
-        filename="JavaScript"
-        language="javascript"
-        code={`var name = value;
-console.log("값은 " + name + "입니다."); // 값은 value입니다.
-`}
-      />
-      <p>2. 백틱 사용</p>
-      <CodeBlock
-        filename="JavaScript"
-        language="javascript"
-        code={`var name = value;
-console.log(\`값은 \${name}입니다.\`); // 값은 value입니다.
-`}
-      />
+      
     </div>
   ),
 };
 
-export default Lesson17;
+export default Lesson18;

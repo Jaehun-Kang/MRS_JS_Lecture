@@ -3,9 +3,9 @@ import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
 
-const Lesson6 = {
+const Lesson7 = {
   name: "2-1 연산 응용",
-  idx: 6,
+  idx: 7,
   content: (
     <div className="lesson-content">
       <h2>연산 응용</h2>
@@ -107,4 +107,4 @@ console.log(futureValue);
   ),
 };
 
-export default Lesson6;
+export default Lesson7;
