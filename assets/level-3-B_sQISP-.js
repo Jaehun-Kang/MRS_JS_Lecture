@@ -1,4 +1,4 @@
-import{j as e,F as t,C as a}from"./level-1-DlGldl8s.js";const s={name:"3-1 Array/Object",idx:16,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object"}),e.jsx("h3",{children:"학생 카드 만들기"}),e.jsxs(t,{title:"학생 카드 코드",children:[e.jsx(a,{filename:"3-1.html",language:"html",code:`<div class="container mt-3">
+import{j as e,F as t,C as a}from"./level-1-BD2z24Jx.js";const s={name:"3-1 Array/Object",idx:17,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object"}),e.jsx("h3",{children:"학생 카드 만들기"}),e.jsxs(t,{title:"학생 카드 코드",children:[e.jsx(a,{filename:"3-1.html",language:"html",code:`<div class="container mt-3">
   <div class="card p-3">
     <span>이름</span>
     <span>학번</span>
@@ -15,7 +15,7 @@ arr.sort(); // 배열 가나다순 정렬
 arr.slice(startIdx, endIdx); // startIdx부터 endIdx 전까지 잘라내기
 arr.push(value); // 배열 끝에 value 추가
 `}),e.jsx("p",{children:"배열은은 이름, 학번, 전공 등 여러 자료들 중 한 가지 자료에 대한 값들을 한 곳에 저장할 때 사용하면 좋다."}),e.jsx("h3",{children:"Object 자료형"}),e.jsx("p",{children:"객체는 키-값 쌍으로 데이터를 저장하는 자료형으로, 키를 지정해야 값을 조회하거나 변경할 수 있다."}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:"var obj = { key : value, key : value };"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`obj[key]; // key에 해당하는 value
-obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}),e.jsx("p",{children:"객체는 한 사람의 이름, 학번, 전공 등 여러 가지 자료를 한 곳에 묶어 저장할 때 사용하면 좋다."})]})},r={name:"3-2 Array/Object 응용",idx:17,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object 응용"}),e.jsx("h3",{children:"강의 카드 만들기"}),e.jsxs(t,{title:"강의 카드 코드",children:[e.jsx(a,{filename:"3-2.html",language:"html",code:`<div class="card-group container">
+obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}),e.jsx("p",{children:"객체는 한 사람의 이름, 학번, 전공 등 여러 가지 자료를 한 곳에 묶어 저장할 때 사용하면 좋다."})]})},r={name:"3-2 Array/Object 응용",idx:18,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object 응용"}),e.jsx("h3",{children:"강의 카드 만들기"}),e.jsxs(t,{title:"강의 카드 코드",children:[e.jsx(a,{filename:"3-2.html",language:"html",code:`<div class="card-group container">
   <div class="card">
     <div class="card-body">
       <h5>수업명</h5>
@@ -60,7 +60,7 @@ arr[idx].key; // idx번째 객체의 key에 해당하는 값
 obj.key[idx]; // key에 해당하는 배열의 idx번째 값
 `}),e.jsx("h3",{children:"문자열 속 변수"}),e.jsx("p",{children:"문자열 속에 특정 변수를 넣어 출력하고 싶을 때가 있는데, 크게 두 가지 방법이 있다."}),e.jsx("p",{children:"1. + 연산자 사용"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var name = value;
 console.log("값은 " + name + "입니다."); // 값은 value입니다.
-`}),e.jsx("p",{children:"2. 백틱 사용"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:"var name = value;\nconsole.log(`값은 ${name}입니다.`); // 값은 value입니다.\n"})]})},l={name:"3-3 Select",idx:18,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select"}),e.jsx("h3",{children:"상품 선택 폼 만들기"}),e.jsxs(t,{title:"상품 선택 폼 코드",children:[e.jsx(a,{filename:"3-3.html",language:"html",code:`<form class="container my-5 form-group">
+`}),e.jsx("p",{children:"2. 백틱 사용"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:"var name = value;\nconsole.log(`값은 ${name}입니다.`); // 값은 value입니다.\n"})]})},l={name:"3-3 Select",idx:19,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select"}),e.jsx("h3",{children:"상품 선택 폼 만들기"}),e.jsxs(t,{title:"상품 선택 폼 코드",children:[e.jsx(a,{filename:"3-3.html",language:"html",code:`<form class="container my-5 form-group">
     <p>상품선택</p>
     <select class="form-select mt-2">
       <option>모자</option>
@@ -72,7 +72,7 @@ console.log("값은 " + name + "입니다."); // 값은 value입니다.
 </select>
 `}),e.jsx("p",{children:"<select> 태그는 <input> 태그와 같이 input, change 이벤트가 발생하고, .value 속성으로 선택된 값을 알 수 있다."}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`document.querySelector("select").value;
 $("select").val(); // <select>에서 선택된 <option>의 값
-`}),e.jsx("h3",{children:"스크립트의 실행 시점"}),e.jsxs("p",{children:["JavaScript는 페이지 로드 시점에 1회 실행되고 다시 실행되지 않는다.",e.jsx("br",{}),"이후에 실행 시점을 정해주고 싶은 코드에는 이벤트 리스너를 부착해야 한다."]}),e.jsx("h3",{})]})},c={name:"3-4 Select 2",idx:19,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 2"}),e.jsx("h3",{children:"HTML 생성"}),e.jsxs("p",{children:["만약 <select> 폼에서 새로운 옵션에 따라 다른 선택 폼이 나타나도록 하려면 어떻게 해야 할까?",e.jsx("br",{}),"자바스크립트를 사용하여 동적으로 HTML 요소를 생성하고 삽입하면 확장성이 좋아진다.",e.jsx("br",{}),"크게 두 가지 방법이 있다."]}),e.jsx("p",{children:"1. 태그 생성 후 내부 내용 설정"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var newElement = document.createElement("tagName"); // 새로운 HTML 요소 생성
+`}),e.jsx("h3",{children:"스크립트의 실행 시점"}),e.jsxs("p",{children:["JavaScript는 페이지 로드 시점에 1회 실행되고 다시 실행되지 않는다.",e.jsx("br",{}),"이후에 실행 시점을 정해주고 싶은 코드에는 이벤트 리스너를 부착해야 한다."]}),e.jsx("h3",{})]})},c={name:"3-4 Select 2",idx:20,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 2"}),e.jsx("h3",{children:"HTML 생성"}),e.jsxs("p",{children:["만약 <select> 폼에서 새로운 옵션에 따라 다른 선택 폼이 나타나도록 하려면 어떻게 해야 할까?",e.jsx("br",{}),"자바스크립트를 사용하여 동적으로 HTML 요소를 생성하고 삽입하면 확장성이 좋아진다.",e.jsx("br",{}),"크게 두 가지 방법이 있다."]}),e.jsx("p",{children:"1. 태그 생성 후 내부 내용 설정"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var newElement = document.createElement("tagName"); // 새로운 HTML 요소 생성
 newElement.innerHTML = "text"; // 요소의 내용 설정
 parentElement.appendChild(newElement); // 부모 요소에 자식 요소로 삽입
 `}),e.jsx("p",{children:"2. 태그와 내용 문자열을 함께 생성"}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var newElement = \`<tagName>text</tagName>\`; // 새로운 HTML 요소 생성
@@ -82,7 +82,7 @@ $("parentElement").append(newElement); // jQuery를 사용하여 부모 요소 �
 `}),e.jsx("p",{children:".prop()을 사용하면 체크박스의 체크 상태, 버튼의 비활성화, 인풋의 값 등 요소의 상태를 확인하거나 변경할 수 있다."}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`$("input").prop("checked", true); // checkbox를 체크된 상태로 설정
 $("button").prop("disabled", true); // button을 비활성화
 $("input").prop("value"); // input의 값
-`})]})},i={name:"3-5 Select 3",idx:20,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 3"}),e.jsx("h3",{children:"ForEach 반복문"}),e.jsx("p",{children:"배열 형식의 데이터를 사용하여 HTML 요소를 반복 생성해보자."}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var arr = [value, value, value];
+`})]})},i={name:"3-5 Select 3",idx:21,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 3"}),e.jsx("h3",{children:"ForEach 반복문"}),e.jsx("p",{children:"배열 형식의 데이터를 사용하여 HTML 요소를 반복 생성해보자."}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var arr = [value, value, value];
 
 for (let i = 0; i < arr.length; i++) {
   $("parentElement").append(\`<tagName>\${arr[i]}</tagName>\`);
@@ -106,7 +106,7 @@ const fName = () => {} // 화살표 함수
 const fName = param => {} // 매개변수가 하나일 때는 괄호 생략 가능
 const fName = (param1, param2) => {} // 매개변수가 두 개 이상일 때는 괄호 생략 불가능
 const fName = () => value // 함수 본문이 한 줄이고 return문만 있을 때는 중괄호와 return 생략 가능
-`}),e.jsxs("p",{children:["하지만 일반 함수와 화살표 함수에서 this가 다르게 동작한다.",e.jsx("br",{}),"그러니 이벤트 리스너에서 화살표 함수를 사용한다면 this가 의도한 대로 동작하지 않을 수 있다."]})]})},o={name:"3-6 Array / For 실습",idx:21,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array / For 실습"}),e.jsxs(t,{title:"퀴즈",children:[e.jsx(a,{filename:"1. 출석부",language:"javascript",code:`const rollBook = ["제헌", "영민", "현민", "채이", "수빈", "지현", "현서", "은별", "지윤", "시현"];
+`}),e.jsxs("p",{children:["하지만 일반 함수와 화살표 함수에서 this가 다르게 동작한다.",e.jsx("br",{}),"그러니 이벤트 리스너에서 화살표 함수를 사용한다면 this가 의도한 대로 동작하지 않을 수 있다."]})]})},o={name:"3-6 Array / For 실습",idx:22,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array / For 실습"}),e.jsxs(t,{title:"퀴즈",children:[e.jsx(a,{filename:"1. 출석부",language:"javascript",code:`const rollBook = ["제헌", "영민", "현민", "채이", "수빈", "지현", "현서", "은별", "지윤", "시현"];
 var attendance = []; // 온 사람들 이름 넣기
 
 // 출석부에 있는 이름을 전부 체크해서
@@ -123,7 +123,7 @@ var attendance = []; // 온 사람들 이름 넣기
 average([10, 20, 30, 40, 50], 40); // "평균보다 10점 올랐습니다."
 average([40, 40, 40], 20); // "평균보다 20점 내렸습니다."
 average([40, 40, 40], 40); // "평균 점수와 같습니다."
-`})]})]})},d={name:"3-7 Ajax",idx:22,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Ajax"}),e.jsx("h3",{children:"강의 목록 만들기"}),e.jsxs(t,{title:"강의 목록 코드",children:[e.jsx(a,{filename:"3-7.html",language:"html",code:`<div class="container">
+`})]})]})},d={name:"3-7 Ajax",idx:23,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Ajax"}),e.jsx("h3",{children:"강의 목록 만들기"}),e.jsxs(t,{title:"강의 목록 코드",children:[e.jsx(a,{filename:"3-7.html",language:"html",code:`<div class="container">
   <div class="row">
     <div class="col-sm-4">
       <h5>Card title</h5>
@@ -149,7 +149,7 @@ $.get("URL").catch(error => {}); // 요청 실패 시 처리
   .catch(error => {
     console.log(error);// 요청 실패 시 에러코드 출력
   });
-`}),e.jsxs("p",{children:["여기서 데이터를 JSON으로 파싱하는 이유는 서버와 클라이언트가 데이터를 주고받을 때 문자만 사용 가능하기 때문이다.",e.jsx("br",{}),"JSON은 문자로 인식하기 때문에 데이터를 주고받을 때 주로 사용된다."]}),e.jsx("p",{children:"jQuery의 경우 JSON 자료가 도착하면 자동으로 Array나 Object로 변환해주지만, JavaScript의 fetch 함수는 res.json() 메서드를 사용하여 따로 변환해줘야 한다."})]})},p={name:"3-8 Array 관련 함수",idx:23,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array 관련 함수"}),e.jsx("h3",{children:"정렬 버튼 만들기"}),e.jsxs(t,{title:"정렬 버튼 코드",children:[e.jsx(a,{filename:"3-8.html",language:"html",code:`<div class="container">
+`}),e.jsxs("p",{children:["여기서 데이터를 JSON으로 파싱하는 이유는 서버와 클라이언트가 데이터를 주고받을 때 문자만 사용 가능하기 때문이다.",e.jsx("br",{}),"JSON은 문자로 인식하기 때문에 데이터를 주고받을 때 주로 사용된다."]}),e.jsx("p",{children:"jQuery의 경우 JSON 자료가 도착하면 자동으로 Array나 Object로 변환해주지만, JavaScript의 fetch 함수는 res.json() 메서드를 사용하여 따로 변환해줘야 한다."})]})},p={name:"3-8 Array 관련 함수",idx:24,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array 관련 함수"}),e.jsx("h3",{children:"정렬 버튼 만들기"}),e.jsxs(t,{title:"정렬 버튼 코드",children:[e.jsx(a,{filename:"3-8.html",language:"html",code:`<div class="container">
   <button class="btn btn-danger" id="more">더보기</button>
   <button class="btn btn-danger" id="sort-name">교수명 오름차순</button>
   <button class="btn btn-danger" id="reverse-letter">강의명 내림차순</button>
@@ -170,7 +170,7 @@ var newArr = arr.filter(function (a) {
 var newArr = arr.map(function (a) {
   return a <modification>; // 각 요소에 대해 수정된 값들로 새 배열 반환
 });
-`})]})},j={name:"3-9 DOM 과 Load 이벤트",idx:24,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"DOM 과 Load 이벤트"}),e.jsx("h3",{children:"Document Object Model"}),e.jsxs("p",{children:["JavaScript는 HTML 문서 조작에 특화된 언어이다.",e.jsx("br",{}),"하지만 <p> 이런 식으로 HTML 태그를 직접 작성하면 알아듣지 못한다.",e.jsx("br",{}),"JavaScript가 HTML을 조작하기 위해서는 HTML을 JavaScript가 해석할 수 있는 문법으로 변환해야 한다.",e.jsx("br",{}),"그래서 브라우저는 HTML 페이지를 열 때 Object와 비슷한 자료형에 담아둔다."]}),e.jsx(a,{filename:"HTML",language:"html",code:'<div style="color : red">빨간 텍스트</div>'}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var document = {
+`})]})},j={name:"3-9 DOM 과 Load 이벤트",idx:25,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"DOM 과 Load 이벤트"}),e.jsx("h3",{children:"Document Object Model"}),e.jsxs("p",{children:["JavaScript는 HTML 문서 조작에 특화된 언어이다.",e.jsx("br",{}),"하지만 <p> 이런 식으로 HTML 태그를 직접 작성하면 알아듣지 못한다.",e.jsx("br",{}),"JavaScript가 HTML을 조작하기 위해서는 HTML을 JavaScript가 해석할 수 있는 문법으로 변환해야 한다.",e.jsx("br",{}),"그래서 브라우저는 HTML 페이지를 열 때 Object와 비슷한 자료형에 담아둔다."]}),e.jsx(a,{filename:"HTML",language:"html",code:'<div style="color : red">빨간 텍스트</div>'}),e.jsx(a,{filename:"JavaScript",language:"javascript",code:`var document = {
   div : {
     style : {color : "red"},
     innerHTML : "빨간 텍스트"
@@ -225,7 +225,7 @@ document.addEventListener("DOMContentLoaded", function () {
 window.addEventListener("load", function () {
   //document 안의 모든 것이 로드가 되었을 경우 실행할 코드
 });
-`}),e.jsxs("p",{children:["window에다 붙이면 document에 포함된 이미지, CSS, JS 파일 포함 전부 로드가 되었는지 확인 가능하다.",e.jsx("br",{}),"앞서 설명했던 .ready()는 DOM 생성만 확인하는 함수이고, 이건 모든 파일과 이미지의 로드까지 확인한다는 차이가 있다."]}),e.jsx("h3",{children:"React/Vue"}),e.jsxs("p",{children:["위에서 설명했듯 JavaScript만으로는 변수가 바뀐 후 HTML에 반영하고 싶다면 변수 변경을 감지한 후 그걸 기존 HTML에 반영하라는 코드를 따로 작성해줘야 한다.",e.jsx("br",{}),"React나 Vue는 JavaScript 변수가 바뀌면 그걸 HTML에 자동으로 반영해주는 라이브러리라 더욱 편리하기 때문에 많이 사용하는 것이다."]})]})},h={name:"3-10 LocalStorage",idx:25,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage"}),e.jsx("h3",{children:"장바구니 수강신청 만들기"}),e.jsxs(t,{title:"장바구니 수강신청 코드",children:[e.jsx(a,{filename:"3-10.html",language:"html",code:`<div class="container">
+`}),e.jsxs("p",{children:["window에다 붙이면 document에 포함된 이미지, CSS, JS 파일 포함 전부 로드가 되었는지 확인 가능하다.",e.jsx("br",{}),"앞서 설명했던 .ready()는 DOM 생성만 확인하는 함수이고, 이건 모든 파일과 이미지의 로드까지 확인한다는 차이가 있다."]}),e.jsx("h3",{children:"React/Vue"}),e.jsxs("p",{children:["위에서 설명했듯 JavaScript만으로는 변수가 바뀐 후 HTML에 반영하고 싶다면 변수 변경을 감지한 후 그걸 기존 HTML에 반영하라는 코드를 따로 작성해줘야 한다.",e.jsx("br",{}),"React나 Vue는 JavaScript 변수가 바뀌면 그걸 HTML에 자동으로 반영해주는 라이브러리라 더욱 편리하기 때문에 많이 사용하는 것이다."]})]})},h={name:"3-10 LocalStorage",idx:26,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage"}),e.jsx("h3",{children:"장바구니 수강신청 만들기"}),e.jsxs(t,{title:"장바구니 수강신청 코드",children:[e.jsx(a,{filename:"3-10.html",language:"html",code:`<div class="container">
   <table class="table table-striped">
     <thead>
       <tr>
@@ -303,7 +303,7 @@ $("element").siblings("#id"); // id에 해당하는 형제 요소 선택
 } else {
   localStorage.setItem('key', JSON.stringify([newValue])) // key가 없으면 새로 저장
 }
-`})]})},v={name:"3-11 LocalStorage 응용",idx:26,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage 응용"}),e.jsx("h3",{children:"플리마켓 장바구니 만들기"}),e.jsxs(t,{title:"플리마켓 장바구니 코드",children:[e.jsx(a,{filename:"3-11.html",language:"html",code:`<div class="container">
+`})]})},v={name:"3-11 LocalStorage 응용",idx:27,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage 응용"}),e.jsx("h3",{children:"플리마켓 장바구니 만들기"}),e.jsxs(t,{title:"플리마켓 장바구니 코드",children:[e.jsx(a,{filename:"3-11.html",language:"html",code:`<div class="container">
   <div class="row"></div>
 </div>
 
@@ -344,7 +344,7 @@ $("element").siblings("#id"); // id에 해당하는 형제 요소 선택
     $(".list").append(newCard);
   });
 <\/script>
-`}),e.jsx("p",{children:"같은 상품을 여러 개 추가하면 상품 개수가 증가한다."})]})]})},u={name:"3-12 스크롤 애니메이션",idx:27,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"스크롤 애니메이션"}),e.jsx("h3",{children:"스크롤 애니메이션 만들기"}),e.jsxs(t,{title:"스크롤 애니메이션 코드",children:[e.jsx(a,{filename:"3-12.html",language:"html",code:`<div class="card-bg">
+`}),e.jsx("p",{children:"같은 상품을 여러 개 추가하면 상품 개수가 증가한다."})]})]})},u={name:"3-12 스크롤 애니메이션",idx:28,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"스크롤 애니메이션"}),e.jsx("h3",{children:"스크롤 애니메이션 만들기"}),e.jsxs(t,{title:"스크롤 애니메이션 코드",children:[e.jsx(a,{filename:"3-12.html",language:"html",code:`<div class="card-bg">
   <div class="card-box">
     <img src="../../assets/car1.png"/>
   </div>
@@ -383,7 +383,7 @@ value2 = a * scrollY2 + b; // 애니메이션 끝 위치값
   var property = a * $(window).scrollTop() + b; // 위에서 구한 a, b 값 사용
   $("element").css("property", property); // property 부분에 원하는 CSS 속성 넣기
 });
-`})]})},x={name:"3-13 마우스 이벤트",idx:28,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"마우스 이벤트"}),e.jsx("h3",{children:"캐러셀 스와이프 만들기"}),e.jsxs(t,{title:"캐러셀 스와이프 코드",children:[e.jsx(a,{filename:"3-13.html",language:"html",code:`<div style="overflow: hidden">
+`})]})},x={name:"3-13 마우스 이벤트",idx:29,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"마우스 이벤트"}),e.jsx("h3",{children:"캐러셀 스와이프 만들기"}),e.jsxs(t,{title:"캐러셀 스와이프 코드",children:[e.jsx(a,{filename:"3-13.html",language:"html",code:`<div style="overflow: hidden">
   <div class="slide-container">
     <div class="slide-box">
       <img src="../../assets/car1.png"/>
@@ -427,7 +427,7 @@ $("element").on("pointermove", function () {
 $("element").on("pointerup", function () {
   // element 위에서 포인터 입력이 끝날 때 실행할 코드
 });
-`}),e.jsx("p",{children:"하지만 이 방법은 개발자 도구 Device Toolbar에서 터치 이벤트를 똑같이 구현하지 못하기 때문에 실제 터치 기기에서 테스트하는 것이 좋다."})]})},g={name:"3-14 Switch 문법",idx:29,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Switch 문법"}),e.jsx("h3",{children:"심리테스트 만들기"}),e.jsxs(t,{title:"심리테스트 코드",children:[e.jsx(a,{filename:"3-14.html",language:"html",code:`<div id="quiz">
+`}),e.jsx("p",{children:"하지만 이 방법은 개발자 도구 Device Toolbar에서 터치 이벤트를 똑같이 구현하지 못하기 때문에 실제 터치 기기에서 테스트하는 것이 좋다."})]})},g={name:"3-14 Switch 문법",idx:30,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Switch 문법"}),e.jsx("h3",{children:"심리테스트 만들기"}),e.jsxs(t,{title:"심리테스트 코드",children:[e.jsx(a,{filename:"3-14.html",language:"html",code:`<div id="quiz">
   <h4>무인도에 들고 갈 한 가지는?</h4>
   <button>핸드폰</button>
   <button>칼</button>
