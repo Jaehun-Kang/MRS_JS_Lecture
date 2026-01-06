@@ -1,4 +1,4 @@
-import{j as e,C as t,F as s,A as i}from"./level-1-DAnh3gfc.js";const a={name:"2-1 연산 응용",idx:7,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"연산 응용"}),e.jsx("h3",{children:"축약형 연산자"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`num = num + 1; // 덧셈
+import{j as e,C as t,F as s,A as a}from"./level-1-DAnh3gfc.js";const i={name:"2-1 연산 응용",idx:7,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"연산 응용"}),e.jsx("h3",{children:"축약형 연산자"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`num = num + 1; // 덧셈
 num += 1;
 num++;
 
@@ -53,7 +53,7 @@ console.log(futureValue);
 <script>
   // 정답이면 alert("정답!"), 3번 찍어서 오답이면 alert("땡!")
 <\/script>
-`})]})]})},O=Object.freeze(Object.defineProperty({__proto__:null,default:a},Symbol.toStringTag,{value:"Module"})),n={name:"2-10 라이브러리",idx:16,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://swiperjs.com/demos",children:"Swiper"})}),e.jsx("p",{children:"캐러셀 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://www.chartjs.org/docs/latest/samples/",children:"Chart.js"})}),e.jsx("p",{children:"차트 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://michalsnik.github.io/aos/",children:"Animate on Scroll"})}),e.jsx("p",{children:"스크롤 애니메이션 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://www.emailjs.com/docs/introduction/how-does-emailjs-work/",children:"EmailJS"})}),e.jsx("p",{children:"이메일 전송 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://lodash.com/docs/4.17.15",children:"Lodash"})}),e.jsx("p",{children:"유틸리티 라이브러리(array, object, 문자, 숫자 자료를 다루기 편해지는 기본함수들을 제공)"}),e.jsxs("h3",{children:[e.jsx("a",{target:"_blank",href:"https://react.dev/",children:"React"}),"/",e.jsx("a",{target:"_blank",href:"https://play.vuejs.org/",children:"Vue"})]}),e.jsx("p",{children:"프론트엔드 프레임워크"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://alvarotrigo.com/fullPage/",children:"Fullpage.js"})}),e.jsx("p",{children:"풀페이지 스크롤 라이브러리"})]})},$=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),l={name:"2-2 setTimeout/Interval",idx:8,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"setTimeout/Interval"}),e.jsx("h3",{children:"안내창 만들기"}),e.jsxs(s,{title:"안내창 코드",children:[e.jsx(t,{filename:"2-2.html",language:"html",code:'<div class="alert alert-danger">5초 이내 구매시 사은품 증정</div>'}),e.jsx("p",{children:"5초 후 안내창이 사라진다."})]}),e.jsx("h3",{children:"setTimeout"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`setTimeout(function () {
+`})]})]})},I=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),n={name:"2-10 라이브러리",idx:16,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://swiperjs.com/demos",children:"Swiper"})}),e.jsx("p",{children:"슬라이더 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://www.chartjs.org/docs/latest/samples/",children:"Chart.js"})}),e.jsx("p",{children:"차트 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://michalsnik.github.io/aos/",children:"Animate on Scroll"})}),e.jsx("p",{children:"스크롤 애니메이션 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://www.emailjs.com/docs/introduction/how-does-emailjs-work/",children:"EmailJS"})}),e.jsx("p",{children:"이메일 전송 라이브러리"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://lodash.com/docs/4.17.15",children:"Lodash"})}),e.jsx("p",{children:"유틸리티 라이브러리(array, object, 문자, 숫자 자료를 다루기 편해지는 기본함수들을 제공)"}),e.jsxs("h3",{children:[e.jsx("a",{target:"_blank",href:"https://react.dev/",children:"React"}),"/",e.jsx("a",{target:"_blank",href:"https://play.vuejs.org/",children:"Vue"})]}),e.jsx("p",{children:"프론트엔드 프레임워크"}),e.jsx("h3",{children:e.jsx("a",{target:"_blank",href:"https://alvarotrigo.com/fullPage/",children:"Fullpage.js"})}),e.jsx("p",{children:"풀페이지 스크롤 라이브러리"})]})},C=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),o={name:"2-2 setTimeout/Interval",idx:8,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"setTimeout/Interval"}),e.jsx("h3",{children:"안내창 만들기"}),e.jsxs(s,{title:"안내창 코드",children:[e.jsx(t,{filename:"2-2.html",language:"html",code:'<div class="alert alert-danger">5초 이내 구매시 사은품 증정</div>'}),e.jsx("p",{children:"5초 후 안내창이 사라진다."})]}),e.jsx("h3",{children:"setTimeout"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`setTimeout(function () {
   // num 밀리초 후 실행할 코드
 }, num);
 `}),e.jsx("p",{children:"타이머를 삭제하고 싶으면 아래처럼 변수를 사용해야 한다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var timer = setTimeout(function () {
@@ -86,7 +86,7 @@ addEventListener()
 function onTimeout() { 
   // num 밀리초 후 실행할 코드
 }
-`}),e.jsx("p",{children:"예를 들어, setTimeout()가 많이 필요한 경우 콜백함수 대신 외부 함수를 사용하는 것이 코드 가독성에 도움이 된다."})]})},J=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),o={name:"2-3 Regex",idx:9,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Regex"}),e.jsx("h3",{children:".includes()"}),e.jsx("p",{children:"문자열에 특정 텍스트가 포함되어 있는지 확인할 때 사용한다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:'"text".includes("text to find")'}),e.jsx("p",{children:"찾을 텍스트가 앞의 문자열에 포함되어 있는지 확인하고 true/false를 반환한다."}),e.jsxs("p",{children:["포함 여부만 확인할 수 있어 사용이 제한적이다. ",e.jsx("br",{}),"예를 들면 한글이 포함되어 있는지나, 이메일 형식에 맞는 문자열인지 확인이 어렵다."]}),e.jsx("h3",{children:"정규 표현식이란?"}),e.jsx("p",{children:"정규 표현식은 문자열에서 특정 패턴을 찾을 때 조건으로 사용하는 문법이다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:"/regex/"}),e.jsx("p",{children:"이를 사용하면 여러 글자의 조합을 검사할 수 있기 때문에 문자열에서 특정 패턴을 검사할 수 있다."}),e.jsx("h3",{children:".test()"}),e.jsx("p",{children:"정규 표현식 조건에 맞는 패턴이 포함되어 있는지 확인할 때 사용한다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:'/regex/.test("text")'}),e.jsx("p",{children:"문자열에 정규 표현식 조건에 맞는 패턴이 포함되어 있는지 확인하고 true/false를 반환한다."}),e.jsx("h3",{children:"정규 표현식 문법"}),e.jsx("p",{children:"아래는 자주 사용하는 정규 표현식 문법이다."}),e.jsxs("table",{className:"var-table",children:[e.jsx("thead",{children:e.jsxs("tr",{children:[e.jsx("th",{children:"분류"}),e.jsx("th",{children:"정규식"}),e.jsx("th",{children:"설명"})]})}),e.jsxs("tbody",{children:[e.jsxs("tr",{children:[e.jsx("td",{children:"한 글자"}),e.jsx("td",{children:"/a/"}),e.jsx("td",{children:"'a'라는 글자가 포함되어 있는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"5",children:"범위 지정"}),e.jsx("td",{children:"/[a-z]/"}),e.jsx("td",{children:"아무 영어 소문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[A-Z]/"}),e.jsx("td",{children:"아무 영어 대문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[a-zA-Z]/"}),e.jsx("td",{children:"아무 영어 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[ㄱ-ㅎㅏ-ㅣ가-힣]/"}),e.jsx("td",{children:"아무 한글 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[0-9]/"}),e.jsx("td",{children:"아무 숫자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"모든 문자"}),e.jsx("td",{children:"\\S"}),e.jsx("td",{children:"아무 문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"2",children:"시작과 끝"}),e.jsx("td",{children:"/^a/"}),e.jsx("td",{children:"문자열이 'a'로 시작하는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/a$/"}),e.jsx("td",{children:"문자열이 'a'로 끝나는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"또는"}),e.jsx("td",{children:"/a|b/"}),e.jsx("td",{children:"문자열에 'a' 또는 'b' 포함"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"2",children:"반복"}),e.jsx("td",{children:"/a+/"}),e.jsx("td",{children:"문자열에 'a'가 하나 이상 연속"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"\\S+a"}),e.jsx("td",{children:"하나 이상 연속 문자 뒤에 'a'"})]})]})]}),e.jsx("h3",{children:"이메일 정규식"}),e.jsx("table",{className:"var-table",children:e.jsx("tbody",{children:e.jsxs("tr",{children:[e.jsx("td",{children:"이메일"}),e.jsx("td",{children:"\\S+@\\S+\\.\\S+"}),e.jsx("td",{children:"이메일 형식에 맞는지 검사"})]})})}),e.jsx("p",{children:"마침표는 정규식에서 특별한 의미를 가지기 때문에, 문자 그대로의 마침표를 찾으려면 앞에 백슬래시를 붙여야 한다."})]})},N=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),r="/MRS_JS_Lecture/assets/car1-WgsqEouX.png",c="/MRS_JS_Lecture/assets/car2-RoD84i3f.png",d="/MRS_JS_Lecture/assets/car3-DZ7HAjzL.png",u={name:"2-4 캐러셀",idx:10,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"캐러셀"}),e.jsx("h3",{children:"캐러셀 만들기"}),e.jsxs(s,{title:"캐러셀 코드",children:[e.jsx(t,{filename:"2-5.html",language:"html",code:`<div style="overflow: hidden">
+`}),e.jsx("p",{children:"예를 들어, setTimeout()가 많이 필요한 경우 콜백함수 대신 외부 함수를 사용하는 것이 코드 가독성에 도움이 된다."})]})},O=Object.freeze(Object.defineProperty({__proto__:null,default:o},Symbol.toStringTag,{value:"Module"})),l={name:"2-3 Regex",idx:9,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Regex"}),e.jsx("h3",{children:".includes()"}),e.jsx("p",{children:"문자열에 특정 텍스트가 포함되어 있는지 확인할 때 사용한다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:'"text".includes("text to find")'}),e.jsx("p",{children:"찾을 텍스트가 앞의 문자열에 포함되어 있는지 확인하고 true/false를 반환한다."}),e.jsxs("p",{children:["포함 여부만 확인할 수 있어 사용이 제한적이다. ",e.jsx("br",{}),"예를 들면 한글이 포함되어 있는지나, 이메일 형식에 맞는 문자열인지 확인이 어렵다."]}),e.jsx("h3",{children:"정규 표현식이란?"}),e.jsx("p",{children:"정규 표현식은 문자열에서 특정 패턴을 찾을 때 조건으로 사용하는 문법이다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:"/regex/"}),e.jsx("p",{children:"이를 사용하면 여러 글자의 조합을 검사할 수 있기 때문에 문자열에서 특정 패턴을 검사할 수 있다."}),e.jsx("h3",{children:".test()"}),e.jsx("p",{children:"정규 표현식 조건에 맞는 패턴이 포함되어 있는지 확인할 때 사용한다."}),e.jsx(t,{filename:"Javascript",language:"javascript",code:'/regex/.test("text")'}),e.jsx("p",{children:"문자열에 정규 표현식 조건에 맞는 패턴이 포함되어 있는지 확인하고 true/false를 반환한다."}),e.jsx("h3",{children:"정규 표현식 문법"}),e.jsx("p",{children:"아래는 자주 사용하는 정규 표현식 문법이다."}),e.jsxs("table",{className:"var-table",children:[e.jsx("thead",{children:e.jsxs("tr",{children:[e.jsx("th",{children:"분류"}),e.jsx("th",{children:"정규식"}),e.jsx("th",{children:"설명"})]})}),e.jsxs("tbody",{children:[e.jsxs("tr",{children:[e.jsx("td",{children:"한 글자"}),e.jsx("td",{children:"/a/"}),e.jsx("td",{children:"'a'라는 글자가 포함되어 있는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"5",children:"범위 지정"}),e.jsx("td",{children:"/[a-z]/"}),e.jsx("td",{children:"아무 영어 소문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[A-Z]/"}),e.jsx("td",{children:"아무 영어 대문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[a-zA-Z]/"}),e.jsx("td",{children:"아무 영어 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[ㄱ-ㅎㅏ-ㅣ가-힣]/"}),e.jsx("td",{children:"아무 한글 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/[0-9]/"}),e.jsx("td",{children:"아무 숫자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"모든 문자"}),e.jsx("td",{children:"\\S"}),e.jsx("td",{children:"아무 문자 하나"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"2",children:"시작과 끝"}),e.jsx("td",{children:"/^a/"}),e.jsx("td",{children:"문자열이 'a'로 시작하는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"/a$/"}),e.jsx("td",{children:"문자열이 'a'로 끝나는지"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"또는"}),e.jsx("td",{children:"/a|b/"}),e.jsx("td",{children:"문자열에 'a' 또는 'b' 포함"})]}),e.jsxs("tr",{children:[e.jsx("td",{rowSpan:"2",children:"반복"}),e.jsx("td",{children:"/a+/"}),e.jsx("td",{children:"문자열에 'a'가 하나 이상 연속"})]}),e.jsxs("tr",{children:[e.jsx("td",{children:"\\S+a"}),e.jsx("td",{children:"하나 이상 연속 문자 뒤에 'a'"})]})]})]}),e.jsx("h3",{children:"이메일 정규식"}),e.jsx("table",{className:"var-table",children:e.jsx("tbody",{children:e.jsxs("tr",{children:[e.jsx("td",{children:"이메일"}),e.jsx("td",{children:"\\S+@\\S+\\.\\S+"}),e.jsx("td",{children:"이메일 형식에 맞는지 검사"})]})})}),e.jsx("p",{children:"마침표는 정규식에서 특별한 의미를 가지기 때문에, 문자 그대로의 마침표를 찾으려면 앞에 백슬래시를 붙여야 한다."})]})},J=Object.freeze(Object.defineProperty({__proto__:null,default:l},Symbol.toStringTag,{value:"Module"})),r="/MRS_JS_Lecture/assets/car1-WgsqEouX.png",c="/MRS_JS_Lecture/assets/car2-RoD84i3f.png",d="/MRS_JS_Lecture/assets/car3-DZ7HAjzL.png",u={name:"2-4 캐러셀",idx:10,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"캐러셀"}),e.jsx("h3",{children:"캐러셀 만들기"}),e.jsxs(s,{title:"캐러셀 코드",children:[e.jsx(t,{filename:"2-5.html",language:"html",code:`<div style="overflow: hidden">
   <div class="slide-container">
     <div class="slide-box">
       <img src="../../assets/car1.png">
@@ -115,9 +115,9 @@ function onTimeout() {
 .slide-box img {
   width: 100%;
 }
-`}),e.jsx("p",{children:"왼쪽, 1, 2, 3, 오른쪽 버튼을 누르면 애니메이션 효과와 함께 슬라이드가 이동한다."}),e.jsx(i,{title:"첨부파일 (assets 폴더에 넣기)",items:[{alt:"car1.png",src:r},{alt:"car2.png",src:c},{alt:"car3.png",src:d}]})]}),e.jsx("h3",{children:"UI 애니메이션 만들기 순서"}),e.jsxs("p",{children:["1. 시작 스타일 만들기 (CSS)",e.jsx("br",{}),"2. 종료 스타일 만들기 (CSS)",e.jsx("br",{}),"3. 애니메이션 시작 시점 구현 (JavaScript)",e.jsx("br",{}),"4. transition 속성 추가 (CSS)"]}),e.jsx("h3",{children:"문자열 속 변수"}),e.jsx("p",{children:"문자열 속에 특정 변수를 넣고 싶을 때 사용할 수 있는 두 가지 방법이 있다."}),e.jsx("p",{children:"1. + 연산자 사용"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var name = value;
+`}),e.jsx("p",{children:"왼쪽, 1, 2, 3, 오른쪽 버튼을 누르면 애니메이션 효과와 함께 슬라이드가 이동한다."}),e.jsx(a,{title:"첨부파일 (assets 폴더에 넣기)",items:[{alt:"car1.png",src:r},{alt:"car2.png",src:c},{alt:"car3.png",src:d}]})]}),e.jsx("h3",{children:"UI 애니메이션 만들기 순서"}),e.jsxs("p",{children:["1. 시작 스타일 만들기 (CSS)",e.jsx("br",{}),"2. 종료 스타일 만들기 (CSS)",e.jsx("br",{}),"3. 애니메이션 시작 시점 구현 (JavaScript)",e.jsx("br",{}),"4. transition 속성 추가 (CSS)"]}),e.jsx("h3",{children:"문자열 속 변수"}),e.jsx("p",{children:"문자열 속에 특정 변수를 넣고 싶을 때 사용할 수 있는 두 가지 방법이 있다."}),e.jsx("p",{children:"1. + 연산자 사용"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var name = value;
 console.log("값은 " + name + "입니다."); // 값은 value입니다.
-`}),e.jsx("p",{children:"2. 백틱 사용"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"var name = value;\nconsole.log(`값은 ${name}입니다.`); // 값은 value입니다.\n"})]})},L=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),m={name:"2-5 Return",idx:11,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Return"}),e.jsx("h3",{children:"Return"}),e.jsx("p",{children:"return 문법은 함수에서 값을 반환할 때 사용한다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`function fName() {
+`}),e.jsx("p",{children:"2. 백틱 사용"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"var name = value;\nconsole.log(`값은 ${name}입니다.`); // 값은 value입니다.\n"})]})},F=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),m={name:"2-5 Return",idx:11,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Return"}),e.jsx("h3",{children:"Return"}),e.jsx("p",{children:"return 문법은 함수에서 값을 반환할 때 사용한다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`function fName() {
   return value;
 }
 
@@ -148,7 +148,7 @@ console.log(toMs(2, 10)); // 130000
 console.log(salePrice(70, false)); // 63
 console.log(salePrice(10, true)); // 7.5
 console.log(salePrice(10.3, true)); // 7.77
-`})]})]})},M=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),p="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201000'%20%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%23000;}%3c/style%3e%3c/defs%3e%3ctitle%3eMRS_Logo%3c/title%3e%3cg%20id='logo1'%20transform='translate(0,%2068)'%3e%3cpath%20class='cls-1'%20d='M500,927c0-477-5-495-113-495,108,0,113,0,113-360%20M500,927c0-477,5-495,113-495-108,0-113,0-113-360'/%3e%3cpath%20class='cls-1'%20d='M178.72,549,19,434A2.5,2.5,0,0,1,19,430L178.72,315c-39.34,35.29-61.42,75-61.42,117S139.38,513.71,178.72,549Z'/%3e%3cpath%20class='cls-1'%20d='M820.28,549,980,434a2.5,2.5,0,0,0,0-4.06L820.28,315c39.34,35.29,61.42,75,61.42,117S859.62,513.71,820.28,549Z'/%3e%3c/g%3e%3c/svg%3e",h={name:"2-6 스크롤 이벤트",idx:12,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"스크롤 이벤트"}),e.jsx("h3",{children:"navbar 만들기"}),e.jsxs(s,{title:"navbar 코드",children:[e.jsx(t,{filename:"2-7.html",language:"html",code:`<nav class="navbar">
+`})]})]})},L=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),p="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%201000'%20%3e%3cdefs%3e%3cstyle%3e.cls-1{fill:%23000;}%3c/style%3e%3c/defs%3e%3ctitle%3eMRS_Logo%3c/title%3e%3cg%20id='logo1'%20transform='translate(0,%2068)'%3e%3cpath%20class='cls-1'%20d='M500,927c0-477-5-495-113-495,108,0,113,0,113-360%20M500,927c0-477,5-495,113-495-108,0-113,0-113-360'/%3e%3cpath%20class='cls-1'%20d='M178.72,549,19,434A2.5,2.5,0,0,1,19,430L178.72,315c-39.34,35.29-61.42,75-61.42,117S139.38,513.71,178.72,549Z'/%3e%3cpath%20class='cls-1'%20d='M820.28,549,980,434a2.5,2.5,0,0,0,0-4.06L820.28,315c39.34,35.29,61.42,75,61.42,117S859.62,513.71,820.28,549Z'/%3e%3c/g%3e%3c/svg%3e",h={name:"2-6 스크롤 이벤트",idx:12,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"스크롤 이벤트"}),e.jsx("h3",{children:"navbar 만들기"}),e.jsxs(s,{title:"navbar 코드",children:[e.jsx(t,{filename:"2-7.html",language:"html",code:`<nav class="navbar">
   <div class="logo">
     <img class="logo_img" src="../../assets/logo.svg" />
     <span class="logo_text">마법연구회</span>
@@ -200,7 +200,7 @@ body {
   font-size: 28px;
   line-height: 100%;
 }
-`}),e.jsx("p",{children:"100px 이상 스크롤 시 로고 사이즈가 줄어든다."}),e.jsx(i,{title:"첨부파일 (assets 폴더에 넣기)",items:[{alt:"logo.svg",src:p}]})]}),e.jsx("h3",{children:"스크롤 이벤트 리스너"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`window.addEventListener("scroll", function () {
+`}),e.jsx("p",{children:"100px 이상 스크롤 시 로고 사이즈가 줄어든다."}),e.jsx(a,{title:"첨부파일 (assets 폴더에 넣기)",items:[{alt:"logo.svg",src:p}]})]}),e.jsx("h3",{children:"스크롤 이벤트 리스너"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`window.addEventListener("scroll", function () {
   // 스크롤 시 실행할 코드
 });
 `}),e.jsx("p",{children:"window는 전체 브라우저 창을 의미한다. document는 HTML 문서 전체를 의미하지만 스크롤 이벤트는 관습적으로 window에 주로 사용한다."}),e.jsx("h3",{children:"스크롤 위치 확인"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`window.scrollX // 수평 스크롤 위치
@@ -212,7 +212,7 @@ $(window).scrollTop(y); // y 위치로 수직 스크롤 이동
 `}),e.jsx("p",{children:"jQuery를 사용하면 scrollTop() 메서드만 사용하여 수직 스크롤 위치 확인과 이동을 할 수 있다."}),e.jsx("h3",{children:"실제 높이"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`document.querySelector(".class").scrollTop; // 요소의 실제 스크롤 위치
 document.querySelector(".class").scrollHeight; // 요소의 실제 높이
 document.querySelector(".class").clientHeight; // 요소의 화면에 보이는 높이
-`}),e.jsx("h3",{children:"스크롤 이벤트 주의할 점"}),e.jsxs("p",{children:["1. 스크롤 내린 양은 정수 단위로 나오지 않고, OS마다 부장확할 수 있기 때문에 10px정도 여유를 두는 것이 좋다.",e.jsx("br",{}),"2. 스크롤 이벤트 리스너 안의 코드는 1초에 60번 이상 실행되므로 스크롤바 1개마다 1개만 부착하여 성능 저하를 방지하는 것이 좋다."]})]})},F=Object.freeze(Object.defineProperty({__proto__:null,default:h},Symbol.toStringTag,{value:"Module"})),g={name:"2-7 탭메뉴",idx:13,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"탭메뉴"}),e.jsx("h3",{children:"탭메뉴 만들기"}),e.jsxs(s,{title:"탭메뉴 코드",children:[e.jsx(t,{filename:"2-8.html",language:"html",code:`<div class="container">
+`}),e.jsx("h3",{children:"스크롤 이벤트 주의할 점"}),e.jsxs("p",{children:["1. 스크롤 내린 양은 정수 단위로 나오지 않고, OS마다 부장확할 수 있기 때문에 10px정도 여유를 두는 것이 좋다.",e.jsx("br",{}),"2. 스크롤 이벤트 리스너 안의 코드는 1초에 60번 이상 실행되므로 스크롤바 1개마다 1개만 부착하여 성능 저하를 방지하는 것이 좋다."]})]})},N=Object.freeze(Object.defineProperty({__proto__:null,default:h},Symbol.toStringTag,{value:"Module"})),g={name:"2-7 탭메뉴",idx:13,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"탭메뉴"}),e.jsx("h3",{children:"탭메뉴 만들기"}),e.jsxs(s,{title:"탭메뉴 코드",children:[e.jsx(t,{filename:"2-8.html",language:"html",code:`<div class="container">
   <ul class="list">
     <li class="tab-button orange">Products</li>
     <li class="tab-button">Information</li>
@@ -281,7 +281,7 @@ element.eq(num) // .class 중 num번째 선택
 `}),e.jsx("p",{children:"이것도 유용하니 알아두자."}),e.jsx("h3",{children:"For 반복문"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`for (let i = 0; i < num; i++) {
   // num번 반복 실행할 코드
 }
-`}),e.jsx("p",{children:"var 대신 let을 사용하는 이유는 변수의 유효 범위에 있다."})]})},z=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),v={name:"2-8 이벤트 버블링",idx:14,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"이벤트 버블링"}),e.jsx("h3",{children:"모달창 만들기"}),e.jsxs(s,{title:"모달창 코드",children:[e.jsx(t,{filename:"2-9.html",language:"html",code:`<div class="black-bg">
+`}),e.jsx("p",{children:"var 대신 let을 사용하는 이유는 변수의 유효 범위에 있다."})]})},M=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),b={name:"2-8 이벤트 버블링",idx:14,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"이벤트 버블링"}),e.jsx("h3",{children:"모달창 만들기"}),e.jsxs(s,{title:"모달창 코드",children:[e.jsx(t,{filename:"2-9.html",language:"html",code:`<div class="black-bg">
   <div class="white-bg">
     <h4>로그인하세요</h4>
     <form action="../level_1/success.html">
@@ -301,8 +301,30 @@ element.eq(num) // .class 중 num번째 선택
     <span class="navbar-brand">Navbar</span>
   </div>
 </nav>
-
 <button id="login-btn">로그인</button>
+
+<script>
+  $("#login-btn").on("click", function () {
+    $(".black-bg").toggle();
+  });
+  $("#close").on("click", function () {
+    $(".black-bg").toggle();
+  });
+<\/script>
+`}),e.jsx(t,{filename:"2-9.css",language:"css",code:`.black-bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  padding: 30px;
+}
+.white-bg {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+}
 `}),e.jsx("p",{children:"모달창 바탕 부분을 누르면 모달창이 사라진다."})]}),e.jsx("h3",{children:"이벤트 버블링"}),e.jsx("p",{children:"특정 요소에서 발생한 이벤트가 그의 모든 상위 요소로 전파되는 현상이다."}),e.jsx(t,{filename:"HTML",language:"html",code:`<div>
   <div>
     <button></button>
@@ -323,7 +345,7 @@ $("element") == document.querySelector("element"); // 항상 false
   $(e.target) == $("element"); // 비교 불가능
   $(e.target).is($("element")); // 비교 가능
 });
-`}),e.jsx("p",{children:"참고로 e.target는 자바스크립트 객체이고, $(e.target)은 jQuery 객체로 변환한 것이다."})]})},E=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),x={name:"2-9 탭메뉴 응용",idx:15,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"탭메뉴 응용"}),e.jsx("h3",{children:"탭메뉴 다시 만들기"}),e.jsxs(s,{title:"탭메뉴 코드",children:[e.jsx(t,{filename:"2-10.html",language:"html",code:`<div class="container">
+`}),e.jsx("p",{children:"참고로 e.target는 자바스크립트 객체이고, $(e.target)은 jQuery 객체로 변환한 것이다."})]})},E=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),v={name:"2-9 탭메뉴 응용",idx:15,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"탭메뉴 응용"}),e.jsx("h3",{children:"탭메뉴 다시 만들기"}),e.jsxs(s,{title:"탭메뉴 코드",children:[e.jsx(t,{filename:"2-10.html",language:"html",code:`<div class="container">
   <ul class="list">
     <li class="tab-button orange">Products</li>
     <li class="tab-button">Information</li>
@@ -384,6 +406,17 @@ ul.list::after {
 .show {
   display: block;
 }
+`}),e.jsx(t,{filename:"2-10.js",language:"javascript",code:`var button = $(".tab-button");
+var content = $(".tab-content");
+
+for (let i = 0; i < button.length; i++) {
+  button.eq(i).on("click", function () {
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
+}
 `}),e.jsx("p",{children:"2-8.html에서 만든 탭메뉴의 스크립트를 함수를 사용하여 같은 기능을 하도록 한다."})]}),e.jsx("h3",{children:"함수 파라미터"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`fName(value1, value2);
 
 function fName(param1, param2) {
@@ -391,7 +424,7 @@ function fName(param1, param2) {
   param2;
 }
 `}),e.jsx("p",{children:"함수의 괄호 안에 파라미터(인수)를 넣어 변수처럼 사용할 수 있다."}),e.jsx("h3",{children:"dataset 문법"}),e.jsx("p",{children:"HTML 요소에 사용자 정의 데이터를 저장할 수 있는 속성이다."}),e.jsx(t,{filename:"HTML",language:"html",code:'<div data-dataName="value"></div>'}),e.jsx("p",{children:"이렇게 dataName에 value를 저장하고,"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"document.querySelector().dataset.dataName"}),e.jsx("p",{children:".dataset.dataName으로 이를 불러올 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`$("element").data('dataName', 'value'); // 데이터 저장
-$("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"dataset 문법은 IE 11 이상 버전에서 지원되는데, jQuery의 data() 메서드는 더 오래된 브라우저도 지원한다."})]})},H=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),j={name:"2-1",idx:7,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-1"}),e.jsx(t,{filename:"2-1.html",language:"html",code:`<!DOCTYPE html>
+$("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"dataset 문법은 IE 11 이상 버전에서 지원되는데, jQuery의 data() 메서드는 더 오래된 브라우저도 지원한다."})]})},z=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),x={name:"2-1",idx:7,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-1"}),e.jsx(t,{filename:"2-1.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -492,7 +525,199 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
     <\/script>
   </body>
 </html>
-`})]})},B=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),f={name:"2-10",idx:16,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-10"}),e.jsx(t,{filename:"2-10.html",language:"html",code:""}),e.jsx(t,{filename:"2-10.css",language:"css",code:""}),e.jsx(t,{filename:"2-10.js",language:"javascript",code:""})]})},C=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),b={name:"2-11",idx:17,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-11"}),e.jsx(t,{filename:"2-11.html",language:"html",code:""})]})},D=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),_={name:"2-2",idx:8,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-2"}),e.jsx(t,{filename:"2-2.html",language:"html",code:`<!DOCTYPE html>
+`})]})},B=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),f={name:"2-10",idx:16,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-10"}),e.jsx(t,{filename:"2-10.html",language:"html",code:`<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>탭메뉴 응용</title>
+    <link rel="stylesheet" href="./2-10.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ><\/script>
+    <script defer src="./2-10.js"><\/script>
+  </head>
+  <body>
+    <!-- 2-9 기본 코드 -->
+    <div class="container">
+      <ul class="list">
+        <!-- Step3 : dataset 활용 -->
+        <li class="tab-button orange" data-id="0">Products</li>
+        <li class="tab-button" data-id="1">Information</li>
+        <li class="tab-button" data-id="2">Shipping</li>
+      </ul>
+      <div class="tab-content show">
+        <p>상품설명입니다. Product</p>
+      </div>
+      <div class="tab-content">
+        <p>스펙설명입니다. Information</p>
+      </div>
+      <div class="tab-content">
+        <p>배송정보입니다. Shipping</p>
+      </div>
+    </div>
+  </body>
+</html>
+`}),e.jsx(t,{filename:"2-10.css",language:"css",code:`/* 2-9 */
+.container {
+  margin-top: 20px;
+}
+
+ul.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tab-button {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.orange {
+  border-top: 2px solid orange;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #ccc;
+  color: black;
+  margin-top: -2px;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+`}),e.jsx(t,{filename:"2-10.js",language:"javascript",code:`// 2-9 기본 코드
+var button = $(".tab-button");
+var content = $(".tab-content");
+
+for (let i = 0; i < button.length; i++) {
+  button.eq(i).on("click", function () {
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
+}
+
+// Step1 : 함수로 분리
+for (let i = 0; i < button.length; i++) {
+  button.eq(i).on("click", function () {
+    tabs(i);
+  });
+}
+
+function tabs(i) {
+  button.removeClass("orange");
+  content.removeClass("show");
+  button.eq(i).addClass("orange");
+  content.eq(i).addClass("show");
+}
+
+// Step2 : 이벤트 위임
+$(".list").click(function (e) {
+  if (e.target == document.querySelectorAll(".tab-button")[0]) {
+    tabs(0);
+  }
+  if (e.target == document.querySelectorAll(".tab-button")[1]) {
+    tabs(1);
+  }
+  if (e.target == document.querySelectorAll(".tab-button")[2]) {
+    tabs(2);
+  }
+});
+
+// Step3 : dataset 활용
+$(".list").click(function (e) {
+  tabs(e.target.dataset.id);
+});
+
+// Step4 : jQuery dataset 활용
+$(".list").click(function (e) {
+  tabs($(e.target).data("id"));
+});
+
+// Step5 : Number 변환
+$(".list").click(function (e) {
+  console.log(e.target.dataset.id);
+  console.log(Number(e.target.dataset.id));
+  tabs(Number(e.target.dataset.id));
+});
+`})]})},Y=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),j={name:"2-11",idx:17,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-11"}),e.jsx(t,{filename:"2-11.html",language:"html",code:`<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>라이브러리</title>
+  </head>
+  <body>
+    <h1>Swiper</h1>
+    <h4>슬라이더 라이브러리</h4>
+    <a href="https://swiperjs.com/demos">
+      <p>https://swiperjs.com/demos</p>
+    </a>
+
+    <h1>Chart.js</h1>
+    <p>차트 라이브러리</p>
+    <a href="https://www.chartjs.org/docs/latest/charts/area.html">
+      <p>https://www.chartjs.org/docs/latest/charts/area.html</p>
+    </a>
+
+    <h1>AOS</h1>
+    <p>스크롤 애니메이션 라이브러리</p>
+    <a href="https://michalsnik.github.io/aos/">
+      <p>https://michalsnik.github.io/aos/</p>
+    </a>
+
+    <h1>EmailJS</h1>
+    <p>이메일 전송 라이브러리</p>
+    <a href="https://www.emailjs.com/docs/introduction/how-does-emailjs-work/">
+      <p>https://www.emailjs.com/docs/introduction/how-does-emailjs-work/</p>
+    </a>
+
+    <h1>Lodash</h1>
+    <p>
+      유틸리티 라이브러리
+      <br />
+      (array, object, 문자, 숫자 자료를 다루기 편해지는 기본함수들을 제공)
+    </p>
+    <a href="https://lodash.com/docs/4.17.15">
+      <p>https://lodash.com/docs/4.17.15</p>
+    </a>
+
+    <h1>React / Vue</h1>
+    <p>프론트엔드 프레임워크</p>
+    <a href="https://react.dev/">
+      <p>https://react.dev/</p>
+    </a>
+
+    <h1>Fullpage.js</h1>
+    <p>풀페이지 스크롤 라이브러리</p>
+    <a href="https://alvarotrigo.com/fullPage/">
+      <p>https://alvarotrigo.com/fullPage/</p>
+    </a>
+  </body>
+</html>
+`})]})},H=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),y={name:"2-2",idx:8,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-2"}),e.jsx(t,{filename:"2-2.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -568,7 +793,7 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
     <\/script>
   </body>
 </html>
-`})]})},A=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),y={name:"2-3",idx:9,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-3"}),e.jsx(t,{filename:"2-3.html",language:"html",code:`<!DOCTYPE html>
+`})]})},D=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),w={name:"2-3",idx:9,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-3"}),e.jsx(t,{filename:"2-3.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -593,7 +818,7 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
     <p>/S+@S+.S+/.test('aaa@bbb.ccc')</p>
   </body>
 </html>
-`})]})},Y=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),S={name:"2-4",idx:10,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-4"}),e.jsx(t,{filename:"2-4.html",language:"html",code:`<!DOCTYPE html>
+`})]})},A=Object.freeze(Object.defineProperty({__proto__:null,default:w},Symbol.toStringTag,{value:"Module"})),S={name:"2-4",idx:10,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-4"}),e.jsx(t,{filename:"2-4.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -685,7 +910,7 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
     <\/script>
   </body>
 </html>
-`})]})},V=Object.freeze(Object.defineProperty({__proto__:null,default:S},Symbol.toStringTag,{value:"Module"})),w={name:"2-5",idx:11,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-5"}),e.jsx(t,{filename:"2-5.html",language:"html",code:`<!DOCTYPE html>
+`})]})},Q=Object.freeze(Object.defineProperty({__proto__:null,default:S},Symbol.toStringTag,{value:"Module"})),_={name:"2-5",idx:11,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-5"}),e.jsx(t,{filename:"2-5.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -803,7 +1028,7 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
 .slide-box img {
   width: 100%;
 }
-`})]})},R=Object.freeze(Object.defineProperty({__proto__:null,default:w},Symbol.toStringTag,{value:"Module"})),q={name:"2-6",idx:12,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-6"}),e.jsx(t,{filename:"2-6.html",language:"html",code:`<!DOCTYPE html>
+`})]})},R=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),q={name:"2-6",idx:12,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-6"}),e.jsx(t,{filename:"2-6.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -870,7 +1095,7 @@ $("element").data('dataName') // 데이터 불러오기`}),e.jsx("p",{children:"
     <\/script>
   </body>
 </html>
-`})]})},Q=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),T={name:"2-7",idx:13,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-7"}),e.jsx(t,{filename:"2-7.html",language:"html",code:`<!DOCTYPE html>
+`})]})},V=Object.freeze(Object.defineProperty({__proto__:null,default:q},Symbol.toStringTag,{value:"Module"})),k={name:"2-7",idx:13,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-7"}),e.jsx(t,{filename:"2-7.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -1115,4 +1340,294 @@ body {
   width: 0%;
   transition: width 150ms;
 }
-`})]})},X=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),I={name:"2-8",idx:14,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-8"}),e.jsx(t,{filename:"2-8.html",language:"html",code:""}),e.jsx(t,{filename:"2-8.css",language:"css",code:""}),e.jsx(t,{filename:"2-8.js",language:"javascript",code:""})]})},Z=Object.freeze(Object.defineProperty({__proto__:null,default:I},Symbol.toStringTag,{value:"Module"})),P={name:"2-9",idx:15,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-9"}),e.jsx(t,{filename:"2-9.html",language:"html",code:""}),e.jsx(t,{filename:"2-9.css",language:"css",code:""})]})},U=Object.freeze(Object.defineProperty({__proto__:null,default:P},Symbol.toStringTag,{value:"Module"}));export{H as _,E as a,z as b,F as c,M as d,L as e,N as f,J as g,$ as h,O as i,U as j,Z as k,X as l,Q as m,R as n,V as o,Y as p,A as q,D as r,C as s,B as t};
+`})]})},X=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"})),T={name:"2-8",idx:14,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-8"}),e.jsx(t,{filename:"2-8.html",language:"html",code:`<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For 반복문</title>
+    <link rel="stylesheet" href="./2-8.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ><\/script>
+    <!-- Step1 : JavaScript 파일 모듈화 -->
+    <script defer src="./2-8.js"><\/script>
+  </head>
+  <body>
+    <!-- 2-7 기본 코드 -->
+    <div class="container">
+      <ul class="list">
+        <li class="tab-button orange">Products</li>
+        <li class="tab-button">Information</li>
+        <li class="tab-button">Shipping</li>
+      </ul>
+      <div class="tab-content show">
+        <p>상품설명입니다. Product</p>
+      </div>
+      <div class="tab-content">
+        <p>스펙설명입니다. Information</p>
+      </div>
+      <div class="tab-content">
+        <p>배송정보입니다. Shipping</p>
+      </div>
+    </div>
+  </body>
+</html>
+`}),e.jsx(t,{filename:"2-8.css",language:"css",code:`/* 2-7 */
+.container {
+  margin-top: 20px;
+}
+
+ul.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.list::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.tab-button {
+  display: block;
+  padding: 10px 20px 10px 20px;
+  float: left;
+  margin-right: -1px;
+  margin-bottom: -1px;
+  color: grey;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.orange {
+  border-top: 2px solid orange;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #ccc;
+  color: black;
+  margin-top: -2px;
+}
+
+.tab-content {
+  display: none;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+`}),e.jsx(t,{filename:"2-8.js",language:"javascript",code:`// 2-7
+// Step2 : 첫번째 버튼 기능 구현
+$(".tab-button")
+  .eq(0)
+  .on("click", function () {
+    $(".tab-button").removeClass("orange");
+    $(".tab-content").removeClass("show");
+    $(".tab-button").eq(0).addClass("orange");
+    $(".tab-content").eq(0).addClass("show");
+  });
+
+// Step3 : 두번째, 세번째 버튼 기능 구현
+$(".tab-button")
+  .eq(1)
+  .on("click", function () {
+    $(".tab-button").removeClass("orange");
+    $(".tab-content").removeClass("show");
+    $(".tab-button").eq(1).addClass("orange");
+    $(".tab-content").eq(1).addClass("show");
+  });
+
+$(".tab-button")
+  .eq(2)
+  .on("click", function () {
+    $(".tab-button").removeClass("orange");
+    $(".tab-content").removeClass("show");
+    $(".tab-button").eq(2).addClass("orange");
+    $(".tab-content").eq(2).addClass("show");
+  });
+
+// Step4 : 셀렉터 변수화
+var button = $(".tab-button");
+var content = $(".tab-content");
+
+button.eq(0).on("click", function () {
+  button.removeClass("orange");
+  content.removeClass("show");
+  button.eq(0).addClass("orange");
+  content.eq(0).addClass("show");
+});
+
+// Step5 : For 반복문 실습
+for (var i = 0; i < 5; i++) {
+  console.log("for1");
+}
+for (var i = 3; i < 6; i++) {
+  console.log("for2");
+}
+for (var i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+// Step6 : For 반복문 사용하여 기능 구현
+var button = $(".tab-button");
+var content = $(".tab-content");
+
+// 1. 한 줄씩 해석
+// 2. var 때문에 i는 for문 밖에 생성
+for (var i = 0; i < 3; i++) {
+  // 3. 안쪽 코드 반복실행
+  button.eq(i).on("click", function () {
+    // 4. 이벤트리스너 안쪽 코드는 바로 실행 X
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
+}
+// 5. 반복문 종료 후 i는 3
+// 6. 버튼 클릭 시 i는 3인데 네 번째 요소가 없어 클래스 삭제만 작동
+
+// Step6 : For 반복문 let 사용
+var button = $(".tab-button");
+var content = $(".tab-content");
+
+for (let i = 0; i < 3; i++) {
+  button.eq(i).on("click", function () {
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
+}
+
+// Step7 : 확장성 있는 코드
+var button = $(".tab-button");
+var content = $(".tab-content");
+
+for (let i = 0; i < button.length; i++) {
+  button.eq(i).on("click", function () {
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
+}
+`})]})},U=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),$={name:"2-9",idx:15,level:2,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"2-9"}),e.jsx(t,{filename:"2-9.html",language:"html",code:`<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이벤트 버블링</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./2-9.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ><\/script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ><\/script>
+  </head>
+  <body>
+    <!-- 2-8 기본 코드 -->
+    <div class="black-bg">
+      <div class="white-bg">
+        <h4>로그인하세요</h4>
+        <form action="../level_1/success.html">
+          <div class="my-3">
+            <input type="text" class="form-control" id="email" />
+          </div>
+          <div class="my-3">
+            <input type="password" class="form-control" id="password" />
+          </div>
+          <button type="submit" class="btn btn-primary">전송</button>
+          <button type="button" class="btn btn-danger" id="close">닫기</button>
+        </form>
+      </div>
+    </div>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand">Navbar</span>
+      </div>
+    </nav>
+    <button id="login-btn">로그인</button>
+
+    <script>
+      document
+        .querySelector("#login-btn")
+        .addEventListener("click", function () {
+          $(".black-bg").toggle();
+        });
+      document.querySelector("#close").addEventListener("click", function () {
+        $(".black-bg").toggle();
+      });
+
+      // Step1 : 검은 배경 클릭 시 닫기(버그 발생)
+      $(".black-bg").on("click", function (e) {
+        $(".black-bg").toggle();
+      });
+
+      // Step2 : 이벤트 함수
+      document
+        .querySelector(".black-bg")
+        .addEventListener("click", function (e) {
+          console.log(e.target); // 실제 클릭된 요소
+          console.log(e.currentTarget); // 이벤트리스너가 달린 요소
+          console.log(this); // 이벤트리스너가 달린 요소
+          e.preventDefault(); // 기본동작 막기
+          e.stopPropagation(); // 이벤트 전파 막기
+        });
+
+      // Step3 : 버그 해결
+      document
+        .querySelector(".black-bg")
+        .addEventListener("click", function (e) {
+          // document.querySelector(".black-bg") 대신 e.currentTarget 혹은 this 사용 가능
+          if (e.target == document.querySelector(".black-bg")) {
+            $(".black-bg").toggle();
+          }
+        });
+
+      // Step4 : jQuery와 querySelector 차이
+      console.log(document.querySelector(".black-bg"));
+      console.log($(".black-bg"));
+
+      // Step3 : jQuery 사용 버전
+      $(".black-bg").on("click", function (e) {
+        // $(".black-bg") 대신 $(e.currentTarget) 혹은 $(this) 사용 가능
+        if ($(e.target).is($(".black-bg"))) {
+          $(".black-bg").toggle();
+        }
+      });
+    <\/script>
+  </body>
+</html>
+`}),e.jsx(t,{filename:"2-9.css",language:"css",code:`/* 2-8 */
+.black-bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  padding: 30px;
+}
+.white-bg {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+}
+`})]})},Z=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"}));export{z as _,E as a,M as b,N as c,L as d,F as e,J as f,O as g,C as h,I as i,Z as j,U as k,X as l,V as m,R as n,Q as o,A as p,D as q,H as r,Y as s,B as t};
