@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson20 = {
   name: "3-4 Select 2",
   idx: 20,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>Select 2</h2>

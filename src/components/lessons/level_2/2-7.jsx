@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson13 = {
   name: "2-7 탭메뉴",
   idx: 13,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>탭메뉴</h2>
@@ -14,27 +15,32 @@ const Lesson13 = {
         <CodeBlock
           filename="2-8.html"
           language="html"
-          code={`<div class="container mt-5">
+          code={`<div class="container">
   <ul class="list">
-    <li class="tab-button">Products</li>
-    <li class="tab-button orange">Information</li>
+    <li class="tab-button orange">Products</li>
+    <li class="tab-button">Information</li>
     <li class="tab-button">Shipping</li>
   </ul>
-  <div class="tab-content">
+  <div class="tab-content show">
     <p>상품설명입니다. Product</p>
   </div>
-  <div class="tab-content show">
+  <div class="tab-content">
     <p>스펙설명입니다. Information</p>
   </div>
   <div class="tab-content">
     <p>배송정보입니다. Shipping</p>
   </div>
-</div> `}
+</div>
+`}
         />
         <CodeBlock
           filename="2-8.css"
           language="css"
-          code={`ul.list {
+          code={`.container {
+  margin-top: 20px;
+}
+
+ul.list {
   list-style-type: none;
   margin: 0;
   padding: 0;

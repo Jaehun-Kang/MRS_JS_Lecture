@@ -1,7 +1,7 @@
 import "../../../styles/lesson.css";
-import CodeBlock from "../CodeBlock";
-import Foldable from "../Foldable";
-import Attachment from "../Attachment";
+import CodeBlock from "../../CodeBlock";
+import Foldable from "../../Foldable";
+import Attachment from "../../Attachment";
 // import filename from "../../../assets/filename.jpg"; // assets 폴더 내 경로
 
 const Lesson0 = {

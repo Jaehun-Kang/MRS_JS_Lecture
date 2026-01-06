@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson24 = {
   name: "3-8 Array 관련 함수",
   idx: 24,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>Array 관련 함수</h2>

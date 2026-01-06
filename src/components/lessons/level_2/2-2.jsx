@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson8 = {
   name: "2-2 setTimeout/Interval",
   idx: 8,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>setTimeout/Interval</h2>

@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson9 = {
   name: "2-3 Regex",
   idx: 9,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>Regex</h2>

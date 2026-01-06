@@ -5,7 +5,10 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
   const [failedItems, setFailedItems] = useState(new Set());
   const [isButtonHovered, setIsButtonHovered] = useState(false);
 
-  const getFileName = (src) => {
+  const getFileName = (src, alt) => {
+    if (alt && typeof alt === "string") {
+      return alt;
+    }
     if (!src || typeof src !== "string") return "파일";
     return src.split("/").pop();
   };
@@ -13,7 +16,7 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
   const downloadAllItems = async () => {
     for (let i = 0; i < items.length; i++) {
       const item = items[i];
-      const fileName = getFileName(item.src);
+      const fileName = getFileName(item.src, item.alt);
       try {
         const response = await fetch(item.src);
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
@@ -76,7 +79,7 @@ const Attachment = ({ title = "첨부파일", items = [] }) => {
               </div>
               <a
                 href={item.src}
-                download={getFileName(item.src)}
+                download={getFileName(item.src, item.alt)}
                 className="attachment-link"
               >
                 {item.alt} 다운로드

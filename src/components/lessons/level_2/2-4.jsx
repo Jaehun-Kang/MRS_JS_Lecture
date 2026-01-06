@@ -9,6 +9,7 @@ import car3 from "../../../assets/car3.png";
 const Lesson10 = {
   name: "2-4 캐러셀",
   idx: 10,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>캐러셀</h2>

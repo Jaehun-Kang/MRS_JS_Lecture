@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson18 = {
   name: "3-2 Array/Object 응용",
   idx: 18,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>Array/Object 응용</h2>
@@ -76,7 +77,6 @@ arr[idx].key; // idx번째 객체의 key에 해당하는 값
 obj.key[idx]; // key에 해당하는 배열의 idx번째 값
 `}
       />
-      
     </div>
   ),
 };

@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson4 = {
   name: "1-4 jQuery와 모달창",
   idx: 4,
+  level: 1,
   content: (
     <div className="lesson-content">
       <h2>jQuery와 모달창</h2>

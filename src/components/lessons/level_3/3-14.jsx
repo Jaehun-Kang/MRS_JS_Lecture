@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson30 = {
   name: "3-14 Switch 문법",
   idx: 30,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>Switch 문법</h2>

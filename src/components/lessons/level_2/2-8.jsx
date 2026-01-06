@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson14 = {
   name: "2-8 이벤트 버블링",
   idx: 14,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>이벤트 버블링</h2>
@@ -34,8 +35,35 @@ const Lesson14 = {
     <span class="navbar-brand">Navbar</span>
   </div>
 </nav>
-
 <button id="login-btn">로그인</button>
+
+<script>
+  $("#login-btn").on("click", function () {
+    $(".black-bg").toggle();
+  });
+  $("#close").on("click", function () {
+    $(".black-bg").toggle();
+  });
+</script>
+`}
+        />
+        <CodeBlock
+          filename="2-9.css"
+          language="css"
+          code={`.black-bg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  padding: 30px;
+}
+.white-bg {
+  background: white;
+  border-radius: 5px;
+  padding: 30px;
+}
 `}
         />
         <p>모달창 바탕 부분을 누르면 모달창이 사라진다.</p>

@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson15 = {
   name: "2-9 탭메뉴 응용",
   idx: 15,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>탭메뉴 응용</h2>
@@ -79,6 +80,22 @@ ul.list::after {
 
 .show {
   display: block;
+}
+`}
+        />
+        <CodeBlock
+          filename="2-10.js"
+          language="javascript"
+          code={`var button = $(".tab-button");
+var content = $(".tab-content");
+
+for (let i = 0; i < button.length; i++) {
+  button.eq(i).on("click", function () {
+    button.removeClass("orange");
+    content.removeClass("show");
+    button.eq(i).addClass("orange");
+    content.eq(i).addClass("show");
+  });
 }
 `}
         />

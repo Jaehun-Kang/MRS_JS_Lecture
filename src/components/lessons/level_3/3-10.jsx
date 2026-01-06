@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson26 = {
   name: "3-10 LocalStorage",
   idx: 26,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>LocalStorage</h2>

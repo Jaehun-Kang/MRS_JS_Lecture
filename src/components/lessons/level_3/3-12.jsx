@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson28 = {
   name: "3-12 스크롤 애니메이션",
   idx: 28,
+  level: 3,
   content: (
     <div className="lesson-content">
       <h2>스크롤 애니메이션</h2>

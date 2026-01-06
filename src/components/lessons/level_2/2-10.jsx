@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson16 = {
   name: "2-10 라이브러리",
   idx: 16,
+  level: 2,
   content: (
     <div className="lesson-content">
       <h2>라이브러리</h2>
@@ -14,7 +15,7 @@ const Lesson16 = {
           Swiper
         </a>
       </h3>
-      <p>캐러셀 라이브러리</p>
+      <p>슬라이더 라이브러리</p>
       <h3>
         <a target="_blank" href="https://www.chartjs.org/docs/latest/samples/">
           Chart.js

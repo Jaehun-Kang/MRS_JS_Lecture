@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson1 = {
   name: "1-1 자바스크립트 기초",
   idx: 1,
+  level: 1,
   content: (
     <div className="lesson-content">
       <h2>자바스크립트 기초</h2>

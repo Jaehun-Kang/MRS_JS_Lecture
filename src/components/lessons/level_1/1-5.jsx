@@ -6,6 +6,7 @@ import Attachment from "../../Attachment";
 const Lesson5 = {
   name: "1-5 if/else function 응용",
   idx: 5,
+  level: 1,
   content: (
     <div className="lesson-content">
       <h2>if/else function 응용</h2>
