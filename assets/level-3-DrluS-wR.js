@@ -11,7 +11,7 @@ arr.sort(); // 배열 가나다순 정렬
 arr.slice(startIdx, endIdx); // startIdx부터 endIdx 전까지 잘라내기
 arr.push(value); // 배열 끝에 value 추가
 `}),e.jsx("p",{children:"배열은은 이름, 학번, 전공 등 여러 자료들 중 한 가지 자료에 대한 값들을 한 곳에 저장할 때 사용하면 좋다."}),e.jsx("h3",{children:"Object 자료형"}),e.jsx("p",{children:"객체는 키-값 쌍으로 데이터를 저장하는 자료형으로, 키를 지정해야 값을 조회하거나 변경할 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"var obj = { key : value, key : value };"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`obj[key]; // key에 해당하는 value
-obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}),e.jsx("p",{children:"객체는 한 사람의 이름, 학번, 전공 등 여러 가지 자료를 한 곳에 묶어 저장할 때 사용하면 좋다."})]})},N=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),s={name:"3-10 LocalStorage",idx:26,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage"}),e.jsx("h3",{children:"장바구니 수강신청 만들기"}),e.jsxs(a,{title:"장바구니 수강신청 코드",children:[e.jsx(t,{filename:"3-10.html",language:"html",code:`<div class="container">
+obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}),e.jsx("p",{children:"객체는 한 사람의 이름, 학번, 전공 등 여러 가지 자료를 한 곳에 묶어 저장할 때 사용하면 좋다."})]})},E=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),s={name:"3-10 LocalStorage",idx:26,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage"}),e.jsx("h3",{children:"장바구니 수강신청 만들기"}),e.jsxs(a,{title:"장바구니 수강신청 코드",children:[e.jsx(t,{filename:"3-10.html",language:"html",code:`<div class="container">
   <table class="table table-striped">
     <thead>
       <tr>
@@ -89,7 +89,7 @@ $("element").siblings("#id"); // id에 해당하는 형제 요소 선택
 } else {
   localStorage.setItem('key', JSON.stringify([newValue])) // key가 없으면 새로 저장
 }
-`})]})},E=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l={name:"3-11 LocalStorage 응용",idx:27,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage 응용"}),e.jsx("h3",{children:"플리마켓 장바구니 만들기"}),e.jsxs(a,{title:"플리마켓 장바구니 코드",children:[e.jsx(t,{filename:"3-11.html",language:"html",code:`<div class="container">
+`})]})},N=Object.freeze(Object.defineProperty({__proto__:null,default:s},Symbol.toStringTag,{value:"Module"})),l={name:"3-11 LocalStorage 응용",idx:27,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage 응용"}),e.jsx("h3",{children:"플리마켓 장바구니 만들기"}),e.jsxs(a,{title:"플리마켓 장바구니 코드",children:[e.jsx(t,{filename:"3-11.html",language:"html",code:`<div class="container">
   <div class="row"></div>
 </div>
 
@@ -242,7 +242,7 @@ $("element").on("pointerup", function () {
   // variable 값이 value2과 같을 때 실행할 코드
 } else {
   // case 값과 일치하는 것이 없을 때 실행할 코드
-}`}),e.jsx("p",{children:"If/Else 문과 비슷하지만, 값에 따른 조건분기를 만들고 싶을 때 여러 경우를 간결하게 처리할 수 있다."})]})},I=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),c={name:"3-2 Array/Object 응용",idx:18,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object 응용"}),e.jsx("h3",{children:"강의 카드 만들기"}),e.jsxs(a,{title:"강의 카드 코드",children:[e.jsx(t,{filename:"3-2.html",language:"html",code:`<div class="card-group container">
+}`}),e.jsx("p",{children:"If/Else 문과 비슷하지만, 값에 따른 조건분기를 만들고 싶을 때 여러 경우를 간결하게 처리할 수 있다."})]})},C=Object.freeze(Object.defineProperty({__proto__:null,default:i},Symbol.toStringTag,{value:"Module"})),c={name:"3-2 Array/Object 응용",idx:18,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array/Object 응용"}),e.jsx("h3",{children:"강의 카드 만들기"}),e.jsxs(a,{title:"강의 카드 코드",children:[e.jsx(t,{filename:"3-2.html",language:"html",code:`<div class="card-group container">
   <div class="card">
     <div class="card-body">
       <h5>수업명</h5>
@@ -285,7 +285,7 @@ $("element").on("pointerup", function () {
 arr[idx].key; // idx번째 객체의 key에 해당하는 값
 `}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var obj = { key : [value, value], key : [value, value] };
 obj.key[idx]; // key에 해당하는 배열의 idx번째 값
-`})]})},C=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"})),d={name:"3-3 Select",idx:19,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select"}),e.jsx("h3",{children:"상품 선택 폼 만들기"}),e.jsxs(a,{title:"상품 선택 폼 코드",children:[e.jsx(t,{filename:"3-3.html",language:"html",code:`<form class="container my-5 form-group">
+`})]})},I=Object.freeze(Object.defineProperty({__proto__:null,default:c},Symbol.toStringTag,{value:"Module"})),d={name:"3-3 Select",idx:19,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select"}),e.jsx("h3",{children:"상품 선택 폼 만들기"}),e.jsxs(a,{title:"상품 선택 폼 코드",children:[e.jsx(t,{filename:"3-3.html",language:"html",code:`<form class="container my-5 form-group">
     <p>상품선택</p>
     <select class="form-select mt-2">
       <option>모자</option>
@@ -297,7 +297,7 @@ obj.key[idx]; // key에 해당하는 배열의 idx번째 값
 </select>
 `}),e.jsx("p",{children:"<select> 태그는 <input> 태그와 같이 input, change 이벤트가 발생하고, .value 속성으로 선택된 값을 알 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`document.querySelector("select").value;
 $("select").val(); // <select>에서 선택된 <option>의 값
-`}),e.jsx("h3",{children:"스크립트의 실행 시점"}),e.jsxs("p",{children:["JavaScript는 페이지 로드 시점에 1회 실행되고 다시 실행되지 않는다.",e.jsx("br",{}),"이후에 실행 시점을 정해주고 싶은 코드에는 이벤트 리스너를 부착해야 한다."]}),e.jsx("h3",{})]})},A=Object.freeze(Object.defineProperty({__proto__:null,default:d},Symbol.toStringTag,{value:"Module"})),p={name:"3-4 Select 2",idx:20,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 2"}),e.jsx("h3",{children:"HTML 생성"}),e.jsxs("p",{children:["만약 <select> 폼에서 새로운 옵션에 따라 다른 선택 폼이 나타나도록 하려면 어떻게 해야 할까?",e.jsx("br",{}),"자바스크립트를 사용하여 동적으로 HTML 요소를 생성하고 삽입하면 확장성이 좋아진다.",e.jsx("br",{}),"크게 두 가지 방법이 있다."]}),e.jsx("p",{children:"1. 태그 생성 후 내부 내용 설정"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var newElement = document.createElement("tagName"); // 새로운 HTML 요소 생성
+`}),e.jsx("h3",{children:"스크립트의 실행 시점"}),e.jsxs("p",{children:["JavaScript는 페이지 로드 시점에 1회 실행되고 다시 실행되지 않는다.",e.jsx("br",{}),"이후에 실행 시점을 정해주고 싶은 코드에는 이벤트 리스너를 부착해야 한다."]}),e.jsx("h3",{})]})},F=Object.freeze(Object.defineProperty({__proto__:null,default:d},Symbol.toStringTag,{value:"Module"})),p={name:"3-4 Select 2",idx:20,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 2"}),e.jsx("h3",{children:"HTML 생성"}),e.jsxs("p",{children:["만약 <select> 폼에서 새로운 옵션에 따라 다른 선택 폼이 나타나도록 하려면 어떻게 해야 할까?",e.jsx("br",{}),"자바스크립트를 사용하여 동적으로 HTML 요소를 생성하고 삽입하면 확장성이 좋아진다.",e.jsx("br",{}),"크게 두 가지 방법이 있다."]}),e.jsx("p",{children:"1. 태그 생성 후 내부 내용 설정"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var newElement = document.createElement("tagName"); // 새로운 HTML 요소 생성
 newElement.innerHTML = "text"; // 요소의 내용 설정
 parentElement.appendChild(newElement); // 부모 요소에 자식 요소로 삽입
 `}),e.jsx("p",{children:"2. 태그와 내용 문자열을 함께 생성"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var newElement = \`<tagName>text</tagName>\`; // 새로운 HTML 요소 생성
@@ -307,7 +307,7 @@ $("parentElement").append(newElement); // jQuery를 사용하여 부모 요소 �
 `}),e.jsx("p",{children:".prop()을 사용하면 체크박스의 체크 상태, 버튼의 비활성화, 인풋의 값 등 요소의 상태를 확인하거나 변경할 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`$("input").prop("checked", true); // checkbox를 체크된 상태로 설정
 $("button").prop("disabled", true); // button을 비활성화
 $("input").prop("value"); // input의 값
-`})]})},F=Object.freeze(Object.defineProperty({__proto__:null,default:p},Symbol.toStringTag,{value:"Module"})),h={name:"3-5 Select 3",idx:21,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 3"}),e.jsx("h3",{children:"ForEach 반복문"}),e.jsx("p",{children:"배열 형식의 데이터를 사용하여 HTML 요소를 반복 생성해보자."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var arr = [value, value, value];
+`})]})},A=Object.freeze(Object.defineProperty({__proto__:null,default:p},Symbol.toStringTag,{value:"Module"})),h={name:"3-5 Select 3",idx:21,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Select 3"}),e.jsx("h3",{children:"ForEach 반복문"}),e.jsx("p",{children:"배열 형식의 데이터를 사용하여 HTML 요소를 반복 생성해보자."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var arr = [value, value, value];
 
 for (let i = 0; i < arr.length; i++) {
   $("parentElement").append(\`<tagName>\${arr[i]}</tagName>\`);
@@ -350,18 +350,18 @@ var attendance = []; // 온 사람들 이름 넣기
 average([10, 20, 30, 40, 50], 40); // "평균보다 10점 올랐습니다."
 average([40, 40, 40], 20); // "평균보다 20점 내렸습니다."
 average([40, 40, 40], 40); // "평균 점수와 같습니다."
-`})]})]})},z=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),m={name:"3-7 Ajax",idx:23,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Ajax"}),e.jsx("h3",{children:"강의 목록 만들기"}),e.jsxs(a,{title:"강의 목록 코드",children:[e.jsx(t,{filename:"3-7.html",language:"html",code:`<div class="container">
+`})]})]})},Y=Object.freeze(Object.defineProperty({__proto__:null,default:u},Symbol.toStringTag,{value:"Module"})),m={name:"3-7 Ajax",idx:23,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Ajax"}),e.jsx("h3",{children:"강의 목록 만들기"}),e.jsxs(a,{title:"강의 목록 코드",children:[e.jsx(t,{filename:"3-7.html",language:"html",code:`<div class="container">
   <div class="row">
-    <div class="col-sm-4">
-      <h5>Card title</h5>
+    <div class="card m-2 pt-2">
+      <h5>대상학년 강의명</h5>
       <p>교수명 : ○○○</p>
     </div>
   </div>
   <button class="btn btn-danger" id="more">더보기</button>
 </div>
-`}),e.jsx(t,{filename:"URL",language:"javascript",code:`"https://jaehun-kang.github.io/JS_Lecture/lectures.json"
-"https://jaehun-kang.github.io/JS_Lecture/more1.json"
-"https://jaehun-kang.github.io/JS_Lecture/more2.json"
+`}),e.jsx(t,{filename:"URL",language:"javascript",code:`"https://jaehun-kang.github.io/MRS_JS_Lecture/lectures.json"
+"https://jaehun-kang.github.io/MRS_JS_Lecture/more1.json"
+"https://jaehun-kang.github.io/MRS_JS_Lecture/more2.json"
 `}),e.jsxs("p",{children:["lectures 배열 데이터를 사용하여 각 강의 카드 레이아웃이 생성된다.",e.jsx("br",{}),"더 보기 버튼을 누르면 추가로 생성된다."]})]}),e.jsx("h3",{children:"서버"}),e.jsxs("p",{children:["서버는 유저가 데이터 요청을 하면 데이터를 보내주거나 DB에 저장하는 프로그램이다.",e.jsx("br",{}),"예를 들어, 웹사이트에 접속하면 서버가 HTML, CSS, JS 파일을 유저에게 보내주고,회원가입을 할 때는 입력한 정보를 서버가 받아서 DB에 저장한다.",e.jsx("br",{}),"서버에 데이터를 요청할 때는 어떤 url인지 잘 기재하고 어떤 방식(GET/POST 등)으로 요청할지 결정해야 한다."]}),e.jsx("h3",{children:"GET/POST 요청"}),e.jsx("p",{children:"GET 요청은 서버에 있던 데이터를 읽고 싶을 때, POST 요청은 서버에 데이터를 보낼 때 주로 사용한다."}),e.jsxs("p",{children:["GET 요청을 보내는 가장 간단한 방법은 브라우저 주소창에 URL을 입력하는 것이고,",e.jsx("br",{}),"POST 요청은 <form> 태그를 사용하여 가능하다."]}),e.jsx(t,{filename:"HTML",language:"html",code:'<form action="URL" method="post">'}),e.jsx("p",{children:"하지만 이 방법은 페이지가 새로고침된다는 단점이 있다."}),e.jsx("h3",{children:"Ajax"}),e.jsx("p",{children:"Ajax는 서버에 GET, POST 요청을 할 때 페이지를 새로고침하지 않고 비동기적으로 데이터를 주고받을 수 있게 해주는 브라우저 기능이다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`$.get("URL"); // URL에 GET 요청
 $.post("URL", { key : value }); // URL에 POST 요청
 `}),e.jsx("p",{children:"하지만 GET 요청 시 불러온 데이터를 저장해야 사용할 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`$.get("URL").done(data => {}); // 불러온 데이터를 data에 저장
@@ -376,12 +376,46 @@ $.get("URL").catch(error => {}); // 요청 실패 시 처리
   .catch(error => {
     console.log(error);// 요청 실패 시 에러코드 출력
   });
-`}),e.jsxs("p",{children:["여기서 데이터를 JSON으로 파싱하는 이유는 서버와 클라이언트가 데이터를 주고받을 때 문자만 사용 가능하기 때문이다.",e.jsx("br",{}),"JSON은 문자로 인식하기 때문에 데이터를 주고받을 때 주로 사용된다."]}),e.jsx("p",{children:"jQuery의 경우 JSON 자료가 도착하면 자동으로 Array나 Object로 변환해주지만, JavaScript의 fetch 함수는 res.json() 메서드를 사용하여 따로 변환해줘야 한다."})]})},Y=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),v={name:"3-8 Array 관련 함수",idx:24,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array 관련 함수"}),e.jsx("h3",{children:"정렬 버튼 만들기"}),e.jsxs(a,{title:"정렬 버튼 코드",children:[e.jsx(t,{filename:"3-8.html",language:"html",code:`<div class="container">
+`}),e.jsxs("p",{children:["여기서 데이터를 JSON으로 파싱하는 이유는 서버와 클라이언트가 데이터를 주고받을 때 문자만 사용 가능하기 때문이다.",e.jsx("br",{}),"JSON은 문자로 인식하기 때문에 데이터를 주고받을 때 주로 사용된다."]}),e.jsx("p",{children:"jQuery의 경우 JSON 자료가 도착하면 자동으로 Array나 Object로 변환해주지만, JavaScript의 fetch 함수는 res.json() 메서드를 사용하여 따로 변환해줘야 한다."})]})},z=Object.freeze(Object.defineProperty({__proto__:null,default:m},Symbol.toStringTag,{value:"Module"})),v={name:"3-8 Array 관련 함수",idx:24,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"Array 관련 함수"}),e.jsx("h3",{children:"정렬 버튼 만들기"}),e.jsxs(a,{title:"정렬 버튼 코드",children:[e.jsx(t,{filename:"3-8.html",language:"html",code:`<div class="container">
   <button class="btn btn-danger" id="more">더보기</button>
   <button class="btn btn-danger" id="sort-name">교수명 오름차순</button>
   <button class="btn btn-danger" id="reverse-letter">강의명 내림차순</button>
   <button class="btn btn-danger" id="filter">1학년</button>
+  <div class="row"></div>
 </div>
+
+<script>
+  function makeCards(obj) {
+    obj.forEach((a) => {
+      var newCard = \`
+        <div class="card m-2 pt-2">
+          <h5>\${a.grade} \${a.title}</h5>
+          <p>교수명 : \${a.professor}</p>
+        </div>
+      \`;
+      $(".row").append(newCard);
+    });
+  }
+
+  $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/allLectures.json").done(
+    (data) => {
+      makeCards(data);
+    }
+  );
+
+  var count = 0;
+  $("#more").on("click", function () {
+    count++;
+    $.get(
+      \`https://jaehun-kang.github.io/MRS_JS_Lecture/more\${count}.json\`
+    ).done(function (data) {
+      makeCards(data);
+    });
+    if (count >= 2) {
+      $("#more").hide();
+    }
+  });
+<\/script>
 `}),e.jsx("p",{children:"버튼을 누르면 강의 목록이 정렬되거나 필터링된다."})]}),e.jsx("h3",{children:".sort()"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var arr = [value, value, value];
 
 arr.sort(function (a, b) {
@@ -397,7 +431,7 @@ var newArr = arr.filter(function (a) {
 var newArr = arr.map(function (a) {
   return a <modification>; // 각 요소에 대해 수정된 값들로 새 배열 반환
 });
-`})]})},D=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),j={name:"3-9 DOM 과 Load 이벤트",idx:25,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"DOM 과 Load 이벤트"}),e.jsx("h3",{children:"Document Object Model"}),e.jsxs("p",{children:["JavaScript는 HTML 문서 조작에 특화된 언어이다.",e.jsx("br",{}),"하지만 <p> 이런 식으로 HTML 태그를 직접 작성하면 알아듣지 못한다.",e.jsx("br",{}),"JavaScript가 HTML을 조작하기 위해서는 HTML을 JavaScript가 해석할 수 있는 문법으로 변환해야 한다.",e.jsx("br",{}),"그래서 브라우저는 HTML 페이지를 열 때 Object와 비슷한 자료형에 담아둔다."]}),e.jsx(t,{filename:"HTML",language:"html",code:'<div style="color : red">빨간 텍스트</div>'}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var document = {
+`})]})},R=Object.freeze(Object.defineProperty({__proto__:null,default:v},Symbol.toStringTag,{value:"Module"})),j={name:"3-9 DOM 과 Load 이벤트",idx:25,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"DOM 과 Load 이벤트"}),e.jsx("h3",{children:"Document Object Model"}),e.jsxs("p",{children:["JavaScript는 HTML 문서 조작에 특화된 언어이다.",e.jsx("br",{}),"하지만 <p> 이런 식으로 HTML 태그를 직접 작성하면 알아듣지 못한다.",e.jsx("br",{}),"JavaScript가 HTML을 조작하기 위해서는 HTML을 JavaScript가 해석할 수 있는 문법으로 변환해야 한다.",e.jsx("br",{}),"그래서 브라우저는 HTML 페이지를 열 때 Object와 비슷한 자료형에 담아둔다."]}),e.jsx(t,{filename:"HTML",language:"html",code:'<div style="color : red">빨간 텍스트</div>'}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`var document = {
   div : {
     style : {color : "red"},
     innerHTML : "빨간 텍스트"
@@ -452,7 +486,7 @@ document.addEventListener("DOMContentLoaded", function () {
 window.addEventListener("load", function () {
   //document 안의 모든 것이 로드가 되었을 경우 실행할 코드
 });
-`}),e.jsxs("p",{children:["window에다 붙이면 document에 포함된 이미지, CSS, JS 파일 포함 전부 로드가 되었는지 확인 가능하다.",e.jsx("br",{}),"앞서 설명했던 .ready()는 DOM 생성만 확인하는 함수이고, 이건 모든 파일과 이미지의 로드까지 확인한다는 차이가 있다."]}),e.jsx("h3",{children:"React/Vue"}),e.jsxs("p",{children:["위에서 설명했듯 JavaScript만으로는 변수가 바뀐 후 HTML에 반영하고 싶다면 변수 변경을 감지한 후 그걸 기존 HTML에 반영하라는 코드를 따로 작성해줘야 한다.",e.jsx("br",{}),"React나 Vue는 JavaScript 변수가 바뀌면 그걸 HTML에 자동으로 반영해주는 라이브러리라 더욱 편리하기 때문에 많이 사용하는 것이다."]})]})},R=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),g={name:"3-1",idx:18,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-1"}),e.jsx(t,{filename:"3-1.html",language:"html",code:`<!DOCTYPE html>
+`}),e.jsxs("p",{children:["window에다 붙이면 document에 포함된 이미지, CSS, JS 파일 포함 전부 로드가 되었는지 확인 가능하다.",e.jsx("br",{}),"앞서 설명했던 .ready()는 DOM 생성만 확인하는 함수이고, 이건 모든 파일과 이미지의 로드까지 확인한다는 차이가 있다."]}),e.jsx("h3",{children:"React/Vue"}),e.jsxs("p",{children:["위에서 설명했듯 JavaScript만으로는 변수가 바뀐 후 HTML에 반영하고 싶다면 변수 변경을 감지한 후 그걸 기존 HTML에 반영하라는 코드를 따로 작성해줘야 한다.",e.jsx("br",{}),"React나 Vue는 JavaScript 변수가 바뀌면 그걸 HTML에 자동으로 반영해주는 라이브러리라 더욱 편리하기 때문에 많이 사용하는 것이다."]})]})},D=Object.freeze(Object.defineProperty({__proto__:null,default:j},Symbol.toStringTag,{value:"Module"})),g={name:"3-1",idx:18,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-1"}),e.jsx(t,{filename:"3-1.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -511,7 +545,7 @@ console.log(student2.pupil[1]);
 // 숙제 : 스스로 해보기
 $(".name").eq(0).html(student2.name);
 $(".pupil").eq(0).html(student2.pupil);
-`})]})},Q=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),x={name:"3-10",idx:27,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-10"}),e.jsx(t,{filename:"3-10.html",language:"html",code:""})]})},V=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),b={name:"3-11",idx:28,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-11"}),e.jsx(t,{filename:"3-11.html",language:"html",code:""})]})},U=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),f={name:"3-12",idx:29,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-12"}),e.jsx(t,{filename:"3-12.html",language:"html",code:""}),e.jsx(t,{filename:"3-12.css",language:"css",code:""})]})},G=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),S={name:"3-13",idx:30,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-13"}),e.jsx(t,{filename:"3-13.html",language:"html",code:""}),e.jsx(t,{filename:"3-13.css",language:"css",code:""})]})},K=Object.freeze(Object.defineProperty({__proto__:null,default:S},Symbol.toStringTag,{value:"Module"})),_={name:"3-14",idx:31,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-14"}),e.jsx(t,{filename:"3-14.html",language:"html",code:""})]})},W=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),y={name:"3-2",idx:19,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-2"}),e.jsx(t,{filename:"3-2.html",language:"html",code:`<!DOCTYPE html>
+`})]})},Q=Object.freeze(Object.defineProperty({__proto__:null,default:g},Symbol.toStringTag,{value:"Module"})),b={name:"3-10",idx:27,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-10"}),e.jsx(t,{filename:"3-10.html",language:"html",code:""})]})},V=Object.freeze(Object.defineProperty({__proto__:null,default:b},Symbol.toStringTag,{value:"Module"})),x={name:"3-11",idx:28,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-11"}),e.jsx(t,{filename:"3-11.html",language:"html",code:""})]})},U=Object.freeze(Object.defineProperty({__proto__:null,default:x},Symbol.toStringTag,{value:"Module"})),f={name:"3-12",idx:29,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-12"}),e.jsx(t,{filename:"3-12.html",language:"html",code:""}),e.jsx(t,{filename:"3-12.css",language:"css",code:""})]})},K=Object.freeze(Object.defineProperty({__proto__:null,default:f},Symbol.toStringTag,{value:"Module"})),S={name:"3-13",idx:30,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-13"}),e.jsx(t,{filename:"3-13.html",language:"html",code:""}),e.jsx(t,{filename:"3-13.css",language:"css",code:""})]})},G=Object.freeze(Object.defineProperty({__proto__:null,default:S},Symbol.toStringTag,{value:"Module"})),_={name:"3-14",idx:31,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-14"}),e.jsx(t,{filename:"3-14.html",language:"html",code:""})]})},W=Object.freeze(Object.defineProperty({__proto__:null,default:_},Symbol.toStringTag,{value:"Module"})),y={name:"3-2",idx:19,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-2"}),e.jsx(t,{filename:"3-2.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -607,7 +641,7 @@ $(".pupil").eq(0).html(student2.pupil);
     <\/script>
   </body>
 </html>
-`})]})},Z=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),T={name:"3-3",idx:20,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-3"}),e.jsx(t,{filename:"3-3.html",language:"html",code:`<!DOCTYPE html>
+`})]})},Z=Object.freeze(Object.defineProperty({__proto__:null,default:y},Symbol.toStringTag,{value:"Module"})),L={name:"3-3",idx:20,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-3"}),e.jsx(t,{filename:"3-3.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -687,7 +721,7 @@ $(".pupil").eq(0).html(student2.pupil);
     <\/script>
   </body>
 </html>
-`})]})},X=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),L={name:"3-4",idx:21,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-4"}),e.jsx(t,{filename:"3-4.html",language:"html",code:`<!DOCTYPE html>
+`})]})},X=Object.freeze(Object.defineProperty({__proto__:null,default:L},Symbol.toStringTag,{value:"Module"})),T={name:"3-4",idx:21,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-4"}),e.jsx(t,{filename:"3-4.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -776,7 +810,7 @@ $(".pupil").eq(0).html(student2.pupil);
     <\/script>
   </body>
 </html>
-`})]})},ee=Object.freeze(Object.defineProperty({__proto__:null,default:L},Symbol.toStringTag,{value:"Module"})),O={name:"3-5",idx:22,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-5"}),e.jsx(t,{filename:"3-5.html",language:"html",code:`<!DOCTYPE html>
+`})]})},ee=Object.freeze(Object.defineProperty({__proto__:null,default:T},Symbol.toStringTag,{value:"Module"})),J={name:"3-5",idx:22,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-5"}),e.jsx(t,{filename:"3-5.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -888,7 +922,7 @@ $(".pupil").eq(0).html(student2.pupil);
     <\/script>
   </body>
 </html>
-`})]})},te=Object.freeze(Object.defineProperty({__proto__:null,default:O},Symbol.toStringTag,{value:"Module"})),J={name:"3-6",idx:23,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-6"}),e.jsx(t,{filename:"3-6.html",language:"html",code:`<!DOCTYPE html>
+`})]})},te=Object.freeze(Object.defineProperty({__proto__:null,default:J},Symbol.toStringTag,{value:"Module"})),O={name:"3-6",idx:23,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-6"}),e.jsx(t,{filename:"3-6.html",language:"html",code:`<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -952,4 +986,87 @@ $(".pupil").eq(0).html(student2.pupil);
     <\/script>
   </body>
 </html>
-`})]})},ae=Object.freeze(Object.defineProperty({__proto__:null,default:J},Symbol.toStringTag,{value:"Module"})),w={name:"3-7",idx:24,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-7"}),e.jsx(t,{filename:"3-7.html",language:"html",code:""})]})},ne=Object.freeze(Object.defineProperty({__proto__:null,default:w},Symbol.toStringTag,{value:"Module"})),k={name:"3-8",idx:25,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-8"}),e.jsx(t,{filename:"3-8.html",language:"html",code:""})]})},se=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"})),$={name:"3-9",idx:26,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-9"}),e.jsx(t,{filename:"3-9.html",language:"html",code:""})]})},le=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"}));export{Q as A,R as _,D as a,Y as b,z as c,B as d,F as e,A as f,C as g,I as h,H as i,P as j,q as k,E as l,N as m,le as n,se as o,ne as p,ae as q,te as r,ee as s,X as t,Z as u,W as v,K as w,G as x,U as y,V as z};
+`})]})},ae=Object.freeze(Object.defineProperty({__proto__:null,default:O},Symbol.toStringTag,{value:"Module"})),w={name:"3-7",idx:24,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-7"}),e.jsx(t,{filename:"3-7.html",language:"html",code:`<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajax</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ><\/script>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ><\/script>
+  </head>
+  <body>
+    <!-- 3-7 기본 코드 -->
+    <div class="container">
+      <div class="row">
+        <!-- <div class="card m-2 pt-2">
+          <h5>대상학년 강의명</h5>
+          <p>교수명 : ○○○</p>
+        </div> -->
+      </div>
+      <button class="btn btn-danger" id="more">더보기</button>
+    </div>
+
+    <script>
+      // Step1 : ajax 실습
+      $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/lectures.json")
+        .done((data) => {
+          console.log(data);
+        })
+        .fail((data) => {
+          console.log(data);
+        });
+
+      // Step2 : 재사용 가능한 카드 함수 만들기
+      function makeCards(obj) {
+        obj.forEach((a) => {
+          var newCard = \`
+            <div class="card m-2 pt-2">
+              <h5>\${a.grade} \${a.title}</h5>
+              <p>교수명 : \${a.professor}</p>
+            </div>
+          \`;
+          $(".row").append(newCard);
+        });
+      }
+
+      // Step3 : 로드 시 카드 생성
+      $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/lectures.json").done(
+        (data) => {
+          makeCards(data);
+        }
+      );
+
+      // Step4 : 더보기 버튼 클릭 시 추가 생성
+      var count = 0;
+      $("#more").on("click", function () {
+        count++;
+        $.get(
+          \`https://jaehun-kang.github.io/MRS_JS_Lecture/more\${count}.json\`
+        ).done(function (data) {
+          makeCards(data);
+        });
+        if (count >= 2) {
+          $("#more").hide();
+        }
+      });
+    <\/script>
+  </body>
+</html>
+`})]})},ne=Object.freeze(Object.defineProperty({__proto__:null,default:w},Symbol.toStringTag,{value:"Module"})),$={name:"3-8",idx:25,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-8"}),e.jsx(t,{filename:"3-8.html",language:"html",code:""})]})},se=Object.freeze(Object.defineProperty({__proto__:null,default:$},Symbol.toStringTag,{value:"Module"})),k={name:"3-9",idx:26,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"3-9"}),e.jsx(t,{filename:"3-9.html",language:"html",code:""})]})},le=Object.freeze(Object.defineProperty({__proto__:null,default:k},Symbol.toStringTag,{value:"Module"}));export{Q as A,D as _,R as a,z as b,Y as c,B as d,A as e,F as f,I as g,C as h,H as i,P as j,q as k,N as l,E as m,le as n,se as o,ne as p,ae as q,te as r,ee as s,X as t,Z as u,W as v,G as w,K as x,U as y,V as z};
