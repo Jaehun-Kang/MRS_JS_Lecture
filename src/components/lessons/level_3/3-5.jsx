@@ -29,7 +29,7 @@ for (let i = 0; i < arr.length; i++) {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`forEach(function (value, idx, array) { // 콜백함수의 첫번째 인수는 배열 안의 값, 두번째 인수는 인덱스, 세번째 인수는 배열 자체이다.
+        code={`arr.forEach(function (value, idx, array) { // 콜백함수의 첫번째 인수는 배열 안의 값, 두번째 인수는 인덱스, 세번째 인수는 배열 자체이다.
   // 반복 실행할 코드
 }
 `}

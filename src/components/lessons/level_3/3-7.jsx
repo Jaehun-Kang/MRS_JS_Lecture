@@ -17,8 +17,8 @@ const Lesson23 = {
           language="html"
           code={`<div class="container">
   <div class="row">
-    <div class="col-sm-4">
-      <h5>Card title</h5>
+    <div class="card m-2 pt-2">
+      <h5>대상학년 강의명</h5>
       <p>교수명 : ○○○</p>
     </div>
   </div>
@@ -29,9 +29,9 @@ const Lesson23 = {
         <CodeBlock
           filename="URL"
           language="javascript"
-          code={`"https://jaehun-kang.github.io/JS_Lecture/lectures.json"
-"https://jaehun-kang.github.io/JS_Lecture/more1.json"
-"https://jaehun-kang.github.io/JS_Lecture/more2.json"
+          code={`"https://jaehun-kang.github.io/MRS_JS_Lecture/lectures.json"
+"https://jaehun-kang.github.io/MRS_JS_Lecture/more1.json"
+"https://jaehun-kang.github.io/MRS_JS_Lecture/more2.json"
 `}
         />
         <p>

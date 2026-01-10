@@ -16,11 +16,38 @@ const Lesson24 = {
           filename="3-8.html"
           language="html"
           code={`<div class="container">
-  <button class="btn btn-danger" id="more">더보기</button>
   <button class="btn btn-danger" id="sort-name">교수명 오름차순</button>
   <button class="btn btn-danger" id="reverse-letter">강의명 내림차순</button>
-  <button class="btn btn-danger" id="filter">1학년</button>
+  <button class="btn btn-danger" id="filter-2">2학년</button>
+  <button class="btn btn-danger" id="filter-3">3학년</button>
+  <button class="btn btn-danger" id="filter-4">4학년</button>
+  <div class="row"></div>
 </div>
+
+<script>
+  function makeCards(obj) {
+    obj.forEach((a) => {
+      var newCard = \`
+        <div class="card m-2 pt-2">
+          <h5>\${a.grade} \${a.title}</h5>
+          <p>교수명 : \${a.professor}</p>
+        </div>
+      \`;
+      $(".row").append(newCard);
+    });
+  }
+
+  var lectures = [];
+  
+  $.when(
+    $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/lectures.json"),
+    $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/more1.json"),
+    $.get("https://jaehun-kang.github.io/MRS_JS_Lecture/more2.json")
+  ).done(function (grade2, grade3, grade4) {
+    lectures = [...grade2[0], ...grade3[0], ...grade4[0]];
+    makeCards(lectures);
+  });
+</script>
 `}
         />
         <p>버튼을 누르면 강의 목록이 정렬되거나 필터링된다.</p>

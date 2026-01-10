@@ -83,7 +83,7 @@ const Lesson25 = {
       <CodeBlock
         filename="JavaScript"
         language="javascript"
-        code={`document.div.innerHTML = "새로운 텍스트";`}
+        code={`document.querySelector("div").innerHTML = "새로운 텍스트";`}
       />
       <p>
         이렇게 브라우저는 HTML 파일을 위에서 아래로 한 줄 한 줄 읽으며 DOM에
@@ -148,8 +148,11 @@ window.addEventListener("load", function () {
         변수 변경을 감지한 후 그걸 기존 HTML에 반영하라는 코드를 따로 작성해줘야
         한다.
         <br />
-        React나 Vue는 JavaScript 변수가 바뀌면 그걸 HTML에 자동으로 반영해주는
-        라이브러리라 더욱 편리하기 때문에 많이 사용하는 것이다.
+        React나 Vue는 JavaScript 변수가 바뀌면 Virtual DOM에 먼저 반영하고, 꼭
+        필요한 내용만 실제 DOM에 자동으로 반영해준다.
+        <br />
+        그래서 DOM 조작 코드를 일일이 다 작성할 필요가 없고, 불필요한 DOM 조작을
+        줄여 성능도 최적화해주기 때문에 많이 사용된다.
       </p>
     </div>
   ),

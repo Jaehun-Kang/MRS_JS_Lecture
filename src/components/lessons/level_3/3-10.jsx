@@ -30,7 +30,7 @@ const Lesson26 = {
 </div>
 
 <div class="container">
-  <a href="./3-10-1.html">
+  <a target="_blank" href="./3-10-1.html">
     <button class="btn btn-danger">장바구니 보기</button>
   </a>
 </div>
@@ -63,24 +63,8 @@ const Lesson26 = {
   }
 </script>`}
         />
-        <CodeBlock
-          filename="3-10-1.html"
-          language="html"
-          code={`<h3>장바구니</h3>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th id="grade">학년</th>
-      <th id="title">강의명</th>
-      <th id="professor">교수명</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-`}
-        />
         <p>
-          장바구니 추가 버튼을 누르면 LocalStorage에 저장하고, 장바구니 보기
+          장바구니 추가 버튼을 누르면 강의 제목을 LocalStorage에 저장하고, 장바구니 보기
           버튼을 누르면 장바구니 페이지를 보여준다.
           <br />
           이미 장바구니에 추가된 강의는 저장되지 않는다.

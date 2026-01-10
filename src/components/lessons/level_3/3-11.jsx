@@ -2,6 +2,8 @@ import "../../../styles/lesson.css";
 import CodeBlock from "../../CodeBlock";
 import Foldable from "../../Foldable";
 import Attachment from "../../Attachment";
+import product1 from "../../../assets/product-0.jpg";
+import product2 from "../../../assets/product-1.jpg";
 
 const Lesson27 = {
   name: "3-11 LocalStorage 응용",
@@ -20,7 +22,7 @@ const Lesson27 = {
 </div>
 
 <div class="container">
-  <a href="./3-11-1.html">
+  <a target="_blank" href="./3-11-1.html">
     <button class="btn btn-danger">장바구니 보기</button>
   </a>
 </div>
@@ -34,7 +36,7 @@ const Lesson27 = {
   function makeCards(obj) {
     obj.forEach((a) => {
       var newCard = \`<div class="col-sm-4">
-        <img src="product-\${a.id}.jpg" class="w-100" />
+        <img src="../../assets/product-\${a.id}.jpg" class="w-100" />
         <h5>\${a.title}</h5>
         <p>가격 : \${a.price}</p>
         <button class="cart">장바구니 추가</button>
@@ -47,21 +49,12 @@ const Lesson27 = {
 </script>
 `}
         />
-        <CodeBlock
-          filename="3-11-1.html"
-          language="html"
-          code={`<h3>장바구니</h3>
-<ul class="list"></ul>
-
-<script>
-  var cartList = JSON.parse(localStorage.getItem("cart"));
-  console.log(cartList);
-  cartList.forEach((i) => {
-    var newCard = \`<li>\${i.name} \${i.count}개</li>\`;
-    $(".list").append(newCard);
-  });
-</script>
-`}
+        <Attachment
+          title="첨부파일 (assets 폴더에 넣기)"
+          items={[
+            { alt: "product-0.jpg", src: product1 },
+            { alt: "product-1.jpg", src: product2 },
+          ]}
         />
         <p>같은 상품을 여러 개 추가하면 상품 개수가 증가한다.</p>
       </Foldable>
