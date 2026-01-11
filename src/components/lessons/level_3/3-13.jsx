@@ -18,19 +18,39 @@ const Lesson29 = {
           code={`<div style="overflow: hidden">
   <div class="slide-container">
     <div class="slide-box">
-      <img src="../../assets/car1.png"/>
+      <img src="../../assets/car1.png" draggable="false" />
     </div>
     <div class="slide-box">
-      <img src="../../assets/car2.png"/>
+      <img src="../../assets/car2.png" draggable="false" />
     </div>
     <div class="slide-box">
-      <img src="../../assets/car3.png"/>
+      <img src="../../assets/car3.png" draggable="false" />
     </div>
   </div>
 </div>
 `}
         />
-        <p>스와이프하면 다음 슬라이드로 넘어간다.</p>
+        <CodeBlock
+          filename="3-13.css"
+          language="css"
+          code={`.slide-container {
+  width: 300vw;
+}
+
+.slide-box {
+  width: 100vw;
+  float: left;
+}
+
+.slide-box img {
+  width: 100%;
+}
+`}
+        />
+        <p>
+          현재 슬라이드에서 100px보다 많이 스와이프하면 다음 슬라이드로
+          넘어간다.
+        </p>
       </Foldable>
       <h3>마우스 이벤트</h3>
       <CodeBlock

@@ -17,13 +17,13 @@ const Lesson28 = {
           language="html"
           code={`<div class="card-bg">
   <div class="card-box">
-    <img src="../../assets/car1.png"/>
+    <img src="../../assets/car1.png" />
   </div>
   <div class="card-box">
-    <img src="../../assets/car2.png"/>
+    <img src="../../assets/car2.png" />
   </div>
   <div class="card-box">
-    <img src="../../assets/car3.png"/>
+    <img src="../../assets/car3.png" />
   </div>
 </div>
 `}
@@ -80,7 +80,7 @@ value2 = a * scrollY2 + b; // 애니메이션 끝 위치값
         filename="Javascript"
         language="javascript"
         code={`$(window).scroll(function () {
-  var property = a * $(window).scrollTop() + b; // 위에서 구한 a, b 값 사용
+  var property = a * scrollValue + b; // 위에서 구한 a, b 값 사용
   $("element").css("property", property); // property 부분에 원하는 CSS 속성 넣기
 });
 `}
