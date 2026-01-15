@@ -10,7 +10,7 @@ arr[idx] = newValue; // idx번째 값을 newValue로 변경
 arr.sort(); // 배열 가나다순 정렬
 arr.slice(startIdx, endIdx); // startIdx부터 endIdx 전까지 잘라내기
 arr.push(value); // 배열 끝에 value 추가
-`}),e.jsx("p",{children:"배열은은 이름, 학번, 전공 등 여러 자료들 중 한 가지 자료에 대한 값들을 한 곳에 저장할 때 사용하면 좋다."}),e.jsx("h3",{children:"Object 자료형"}),e.jsx("p",{children:"객체는 키-값 쌍으로 데이터를 저장하는 자료형으로, 키를 지정해야 값을 조회하거나 변경할 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"var obj = { key : value, key : value };"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`obj[key]; // key에 해당하는 value
+`}),e.jsx("p",{children:"배열은 이름, 학번, 전공 등 여러 자료들 중 한 가지 자료에 대한 값들을 한 곳에 저장할 때 사용하면 좋다."}),e.jsx("h3",{children:"Object 자료형"}),e.jsx("p",{children:"객체는 키-값 쌍으로 데이터를 저장하는 자료형으로, 키를 지정해야 값을 조회하거나 변경할 수 있다."}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:"var obj = { key : value, key : value };"}),e.jsx(t,{filename:"JavaScript",language:"javascript",code:`obj[key]; // key에 해당하는 value
 obj[key] = newValue; // key에 해당하는 값을 newValue로 변경`}),e.jsx("p",{children:"객체는 한 사람의 이름, 학번, 전공 등 여러 가지 자료를 한 곳에 묶어 저장할 때 사용하면 좋다."})]})},C=Object.freeze(Object.defineProperty({__proto__:null,default:n},Symbol.toStringTag,{value:"Module"})),r={name:"3-10 LocalStorage",idx:26,level:3,content:e.jsxs("div",{className:"lesson-content",children:[e.jsx("h2",{children:"LocalStorage"}),e.jsx("h3",{children:"장바구니 수강신청 만들기"}),e.jsxs(a,{title:"장바구니 수강신청 코드",children:[e.jsx(t,{filename:"3-10.html",language:"html",code:`<div class="container">
   <table class="table table-striped">
     <thead>
